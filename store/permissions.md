@@ -42,7 +42,6 @@ Privacy policy URL: https://github.com/antalikra/FormDitto/blob/main/store/PRIVA
 
 ## Test instructions for the reviewer
 
-1. Open https://httpbin.org/forms/post (a public demo form).
-2. Click the FormDitto icon: the side panel opens. Click "New template", then "Add all visible fields", type a few values in the form, click "Save template".
-3. Reload the page (if the panel asks for access again, click the FormDitto icon once more, or use "Always allow on this site"), click "Fill" next to "Variant 1", review the preview and click "Fill fields (N)". The fields are filled and highlighted; "Undo" restores them.
-4. The extension never submits the form; no account or login is needed.
+Credentials: leave empty. Additional instructions (the field takes at most 500 characters):
+
+No login needed. 1) Open https://httpbin.org/forms/post 2) Click the FormDitto toolbar icon: the side panel opens. 3) Click "New template", then "Add all visible fields", type some values in the form, click "Save template". 4) Reload the page (click the icon again if the panel asks), click "Fill" next to "Variant 1", review the preview, click "Fill fields (N)". Fields are filled and highlighted; "Undo" restores them. The extension never submits forms.
