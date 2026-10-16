@@ -80,4 +80,6 @@ store/                store listing, permissions, privacy policy, icon, screensh
 
 ## Privacy
 
-All data stays in the browser's local extension storage on your device. No data is collected, transmitted or sold, and there are no network requests. Full policy: [store/PRIVACY.md](store/PRIVACY.md).
+FormDitto handles the form data you choose to save (field labels from the page and the values you enter, such as names, e-mail addresses or phone numbers) only to fill your forms. It keeps that data in the browser's local extension storage on your device: it is never transmitted, sold or shared, and the extension makes no network requests. Full policy: [store/PRIVACY.md](store/PRIVACY.md).
+
+FormDitto's use of the data it handles adheres to the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/), including the Limited Use requirements.

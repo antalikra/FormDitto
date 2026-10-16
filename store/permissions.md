@@ -27,7 +27,11 @@ Not granted at install. When the user clicks "Always allow on this site", FormDi
 
 ## Data usage
 
-What user data do you collect? **None.** FormDitto does not collect or transmit any data. Form values and templates the user saves are stored only locally in `chrome.storage.local` and never leave the device.
+What user data do you plan to collect? Google's User Data FAQ says data handled only locally must still be disclosed, so tick:
+- **Personally identifiable information** — variant values the user types (names, e-mail addresses, phone numbers, addresses).
+- **Website content** — field labels, options and current values read from the form page.
+
+Leave the other categories unticked: passwords, payment cards and one-time codes are never read; no history, location, communications or activity logs are stored. Everything stays in `chrome.storage.local` on the device and is never transmitted.
 
 Certify all three disclosures:
 - I do not sell or transfer user data to third parties, outside of the approved use cases.
