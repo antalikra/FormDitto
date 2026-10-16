@@ -13,7 +13,7 @@ When the user clicks the FormDitto toolbar icon, FormDitto gets temporary access
 Injects the extension's own packaged script (`content/agent.js`) into the current tab only when the user records a template, opens a preview or fills a form. The script reads field labels and sets field values. No remote code is injected or executed.
 
 **storage**
-Saves the user's templates, variants and one setting (wait timeout) in `chrome.storage.local` on the user's device. Nothing is synced or transmitted.
+Saves the user's templates, variants and settings (interface language, theme, recording sync mode, wait timeout) in `chrome.storage.local` on the user's device. Nothing is synced or transmitted.
 
 **sidePanel**
 The user interface (templates, variants, preview, undo) is shown in the browser side panel, so it stays open next to the form while the user works.
@@ -34,11 +34,11 @@ Certify all three disclosures:
 - I do not use or transfer user data for purposes that are unrelated to my item's single purpose.
 - I do not use or transfer user data to determine creditworthiness or for lending purposes.
 
-Privacy policy URL: publish `store/PRIVACY.md` at a public URL (project website, GitHub Pages or a public Gist) and paste the link.
+Privacy policy URL: https://github.com/antalikra/FormDitto/blob/main/store/PRIVACY.md
 
 ## Test instructions for the reviewer
 
 1. Open https://httpbin.org/forms/post (a public demo form).
 2. Click the FormDitto icon: the side panel opens. Click "New template", then "Add all visible fields", type a few values in the form, click "Save template".
-3. Reload the page (if the panel asks for access again, click the FormDitto icon once more, or use "Always allow on this site"), click "Fill" next to "Variant 1", review the preview and click "Fill N fields". The fields are filled and highlighted; "Undo" restores them.
+3. Reload the page (if the panel asks for access again, click the FormDitto icon once more, or use "Always allow on this site"), click "Fill" next to "Variant 1", review the preview and click "Fill fields (N)". The fields are filled and highlighted; "Undo" restores them.
 4. The extension never submits the form; no account or login is needed.
