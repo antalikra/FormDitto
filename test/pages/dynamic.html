@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dynamic form</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="dyn">
+  <h1>Dynamic lists</h1>
+  <p class="lead">Product list loads after the page; cities load after a region is chosen; a batch field appears later.</p>
+  <div class="grid">
+    <div class="f"><label for="region">Region</label>
+      <select id="region" name="region"><option value="">Choose…</option><option value="north">North</option><option value="south">South</option></select></div>
+    <div class="f"><label for="city">City</label>
+      <select id="city" name="city" disabled><option value="">Choose a region first</option></select></div>
+    <div class="f"><label for="product">Product</label>
+      <select id="product" name="product"><option value="">Loading…</option></select></div>
+    <div class="f"><label class="checks"><span><input type="checkbox" id="express" name="express"> Express delivery</span></label></div>
+    <div class="f hidden-section" id="courierBox"><label for="courier">Courier</label><input type="text" id="courier" name="courier"></div>
+    <div class="f" id="lateSlot"></div>
+  </div>
+  <div class="bar"><button type="submit" class="primary">Send</button></div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+<script src="dynamic.js"></script>
+</body>
+</html>

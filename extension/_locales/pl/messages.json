@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: automatyczne wypełnianie formularzy z szablonów"
+  },
+  "extDescription": {
+    "message": "Wypełniaj powtarzalne formularze jednym kliknięciem z zapisanych szablonów. Wszystko lokalnie: bez konta i abonamentu."
+  },
+  "actionTitle": {
+    "message": "Otwórz FormDitto"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "back": {
+    "message": "Wstecz"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "save": {
+    "message": "Zapisz"
+  },
+  "delete": {
+    "message": "Usuń"
+  },
+  "edit": {
+    "message": "Edytuj"
+  },
+  "duplicate": {
+    "message": "Duplikuj"
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "rename": {
+    "message": "Zmień nazwę"
+  },
+  "done": {
+    "message": "Gotowe"
+  },
+  "checked": {
+    "message": "Zaznaczone"
+  },
+  "unchecked": {
+    "message": "Niezaznaczone"
+  },
+  "notSet": {
+    "message": "— nie ustawiono —"
+  },
+  "nothingFound": {
+    "message": "Nic nie znaleziono."
+  },
+  "unnamedField": {
+    "message": "Pole bez nazwy"
+  },
+  "siteUnknownTitle": {
+    "message": "Brak dostępu do tej karty"
+  },
+  "siteUnknownBody": {
+    "message": "Kliknij ikonę FormDitto na pasku narzędzi przeglądarki, aby pracować z tą kartą. Aby nie klikać za każdym razem na swoim portalu, wybierz potem „Zawsze zezwalaj na tej stronie”."
+  },
+  "siteUnsupported": {
+    "message": "FormDitto nie działa na tej stronie."
+  },
+  "accessGranted": {
+    "message": "Zawsze dozwolone na tej stronie"
+  },
+  "accessTemporary": {
+    "message": "Dozwolone na tej stronie, dopóki jej nie opuścisz"
+  },
+  "alwaysAllow": {
+    "message": "Zawsze zezwalaj na tej stronie"
+  },
+  "accessNote": {
+    "message": "FormDitto prosi o dostęp tylko do tej jednej strony."
+  },
+  "newTemplate": {
+    "message": "Nowy szablon"
+  },
+  "searchTemplates": {
+    "message": "Szukaj szablonów i wariantów"
+  },
+  "templatesHere": {
+    "message": "Szablony dla tej strony"
+  },
+  "noTemplatesHere": {
+    "message": "Brak szablonów dla tej strony. Kliknij „Nowy szablon” i wybierz pola formularza."
+  },
+  "otherSites": {
+    "message": "Inne strony ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Wszystkie szablony ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Pola: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Warianty: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Importuj"
+  },
+  "exportAll": {
+    "message": "Eksportuj wszystko"
+  },
+  "localNote": {
+    "message": "Szablony są przechowywane tylko w tej przeglądarce na tym urządzeniu."
+  },
+  "recTitle": {
+    "message": "Nagrywanie szablonu"
+  },
+  "recHelp": {
+    "message": "Klikaj pola formularza, które mają trafić do szablonu. Wartości wpisz na stronie albo od razu tutaj: są synchronizowane i staną się pierwszym wariantem."
+  },
+  "recAddAll": {
+    "message": "Dodaj wszystkie widoczne pola"
+  },
+  "recEmpty": {
+    "message": "Nie wybrano jeszcze żadnych pól."
+  },
+  "recName": {
+    "message": "Nazwa szablonu"
+  },
+  "recNameDefault": {
+    "message": "Formularz na $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "Nazwa pierwszego wariantu"
+  },
+  "firstVariantName": {
+    "message": "Wariant 1"
+  },
+  "recSave": {
+    "message": "Zapisz szablon"
+  },
+  "recBanner": {
+    "message": "FormDitto · klikaj pola, aby je dodać · wybrano: {n}"
+  },
+  "recHoverAdd": {
+    "message": "kliknij, aby dodać"
+  },
+  "recHoverAdded": {
+    "message": "dodano · możesz wpisać wartość"
+  },
+  "recHoverBlocked": {
+    "message": "Niedozwolone"
+  },
+  "recBlocked": {
+    "message": "Nie dodano: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "Strona nie przyjęła wartości pola „$P1$”. Szablon zachowa wartość z panelu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "Strona zastąpiła pole „$P1$” nowym. Kliknij je ponownie na stronie, aby zostało w szablonie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Przyciski nie są nagrywane. Formularz nie został wysłany."
+  },
+  "recCancelledNav": {
+    "message": "Nagrywanie zatrzymane: strona się zmieniła."
+  },
+  "savedTemplate": {
+    "message": "Zapisano szablon „$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Zapisano szablon „$P1$”. Teraz wpisz wartości pierwszego wariantu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "pole hasła"
+  },
+  "reason_payment": {
+    "message": "pole karty płatniczej"
+  },
+  "reason_otp": {
+    "message": "pole kodu jednorazowego"
+  },
+  "reason_hidden_type": {
+    "message": "ukryte pole"
+  },
+  "reason_not_rendered": {
+    "message": "ukryte pole"
+  },
+  "reason_too_small": {
+    "message": "niewidoczne pole (za małe)"
+  },
+  "reason_invisible": {
+    "message": "niewidoczne pole"
+  },
+  "reason_transparent": {
+    "message": "przezroczyste pole"
+  },
+  "reason_clipped": {
+    "message": "przycięte, ukryte pole"
+  },
+  "reason_offscreen": {
+    "message": "pole poza ekranem"
+  },
+  "reason_aria_hidden": {
+    "message": "pole ukryte przed użytkownikami"
+  },
+  "reason_inert": {
+    "message": "nieaktywna część strony"
+  },
+  "reason_detached": {
+    "message": "pole usunięte ze strony"
+  },
+  "reason_disabled": {
+    "message": "wyłączone pole"
+  },
+  "reason_readonly": {
+    "message": "pole tylko do odczytu"
+  },
+  "reason_unsupported": {
+    "message": "nieobsługiwany typ pola"
+  },
+  "reason_submit": {
+    "message": "przycisk"
+  },
+  "kind_text": {
+    "message": "tekst"
+  },
+  "kind_textarea": {
+    "message": "długi tekst"
+  },
+  "kind_select": {
+    "message": "lista"
+  },
+  "kind_checkbox": {
+    "message": "pole wyboru"
+  },
+  "kind_radio": {
+    "message": "wybór"
+  },
+  "kind_date": {
+    "message": "data"
+  },
+  "recordedOn": {
+    "message": "Nagrano na $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Szukaj wariantów"
+  },
+  "noVariants": {
+    "message": "Brak wariantów. Wypełnij formularz ręcznie i kliknij „Nowy wariant ze strony”."
+  },
+  "fillBtn": {
+    "message": "Wypełnij"
+  },
+  "newVariantFromPage": {
+    "message": "Nowy wariant ze strony"
+  },
+  "newVariantEmpty": {
+    "message": "Pusty wariant"
+  },
+  "fieldsHeading": {
+    "message": "Pola ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Usuń pole z szablonu"
+  },
+  "confirmDelete": {
+    "message": "Usunąć ten wariant?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Usunąć szablon i wszystkie jego warianty?"
+  },
+  "deleteTemplate": {
+    "message": "Usuń szablon"
+  },
+  "exportOne": {
+    "message": "Eksportuj"
+  },
+  "copySuffix": {
+    "message": "$P1$ (kopia)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Utworzono kopię: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Wariant $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Edycja wariantu"
+  },
+  "newVariantTitle": {
+    "message": "Nowy wariant"
+  },
+  "variantName": {
+    "message": "Nazwa wariantu"
+  },
+  "leaveEmptyHint": {
+    "message": "Puste pola nie są zmieniane podczas wypełniania."
+  },
+  "savedVariant": {
+    "message": "Zapisano wariant „$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Podgląd"
+  },
+  "previewUnchanged": {
+    "message": "Bez zmian: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Wypełnij pola: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Wypełnij mimo to"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto tylko wypełnia pola. Formularz sprawdzasz i wysyłasz samodzielnie."
+  },
+  "mismatchTitle": {
+    "message": "To nie jest strona, na której nagrano szablon"
+  },
+  "mismatchTemplateSite": {
+    "message": "Strona szablonu"
+  },
+  "mismatchThisPage": {
+    "message": "Ta strona"
+  },
+  "mismatchBody": {
+    "message": "Jeśli to kopia Twojego portalu, wpisane dane trafią do kogoś obcego."
+  },
+  "lookalikePunycode": {
+    "message": "Adres zawiera podobnie wyglądające znaki z innych alfabetów."
+  },
+  "lookalikeSimilar": {
+    "message": "Adres wygląda na imitację oryginału."
+  },
+  "downgradeWarn": {
+    "message": "Ta strona nie jest bezpieczna (http zamiast https)."
+  },
+  "mismatchAck": {
+    "message": "Rozumiem ryzyko, mimo to wypełnij tę stronę"
+  },
+  "st_ready": {
+    "message": "zostanie wypełnione"
+  },
+  "st_unchanged": {
+    "message": "już ustawione"
+  },
+  "st_skipped": {
+    "message": "brak w wariancie"
+  },
+  "st_waiting": {
+    "message": "jeszcze nie ma, poczekamy"
+  },
+  "st_option_wait": {
+    "message": "opcji jeszcze nie ma, poczekamy"
+  },
+  "st_blocked": {
+    "message": "zablokowane: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "niejednoznaczne, pominięto"
+  },
+  "st_filled": {
+    "message": "wypełnione"
+  },
+  "st_not_found": {
+    "message": "nie znaleziono"
+  },
+  "st_no_option": {
+    "message": "nie znaleziono opcji"
+  },
+  "st_failed": {
+    "message": "strona odrzuciła wartość"
+  },
+  "st_invalid": {
+    "message": "nieprawidłowa wartość"
+  },
+  "fillingProgress": {
+    "message": "Wypełnianie… w razie potrzeby czekam na załadowanie pól."
+  },
+  "resultTitle": {
+    "message": "Wypełniono"
+  },
+  "undoneTitle": {
+    "message": "Cofnięto"
+  },
+  "resultFilled": {
+    "message": "wypełnione"
+  },
+  "resultUnchanged": {
+    "message": "już poprawne"
+  },
+  "resultProblems": {
+    "message": "niewypełnione"
+  },
+  "reviewNote": {
+    "message": "Sprawdź formularz i wyślij go samodzielnie."
+  },
+  "undo": {
+    "message": "Cofnij"
+  },
+  "undone": {
+    "message": "Przywrócono poprzednie wartości: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Import szablonów"
+  },
+  "importSummary": {
+    "message": "Szablony w pliku: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Zaimportowane szablony wypełniają formularze tylko na stronach pokazanych powyżej. Szablony o tym samym id są dodawane jako kopie."
+  },
+  "importConfirm": {
+    "message": "Importuj"
+  },
+  "importDone": {
+    "message": "Zaimportowane szablony: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (import)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Zapisano ustawienia."
+  },
+  "waitLabel": {
+    "message": "Czas oczekiwania na załadowanie pól i list (sekundy)"
+  },
+  "waitHelp": {
+    "message": "Jak długo wypełnianie czeka na pole lub opcję listy, które pojawiają się później, np. listę modeli ładowaną po wybraniu typu urządzenia. Pola, które się nie pojawią, zostaną oznaczone jako nieznalezione."
+  },
+  "sitesHeading": {
+    "message": "Strony ze stałym dostępem"
+  },
+  "noSites": {
+    "message": "Brak."
+  },
+  "removeAccess": {
+    "message": "Odbierz dostęp"
+  },
+  "privacyHeading": {
+    "message": "Prywatność"
+  },
+  "privacyText": {
+    "message": "Szablony są przechowywane tylko w tej przeglądarce na tym urządzeniu. FormDitto nie ma serwera, konta ani analityki i nie wysyła żadnych żądań sieciowych. Nigdy nie wypełnia haseł, kart płatniczych ani ukrytych pól i nigdy nie wysyła formularzy."
+  },
+  "versionLabel": {
+    "message": "Wersja $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Język"
+  },
+  "langAuto": {
+    "message": "Jak w przeglądarce ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ s",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Pokaż wartości"
+  },
+  "generalHeading": {
+    "message": "Ogólne"
+  },
+  "themeLabel": {
+    "message": "Motyw"
+  },
+  "syncLabel": {
+    "message": "Strona i panel podczas nagrywania"
+  },
+  "syncBoth": {
+    "message": "W obie strony"
+  },
+  "syncPage": {
+    "message": "Strona → panel"
+  },
+  "syncHelp": {
+    "message": "W obie strony: to, co wpiszesz w panelu, trafia też do formularza na stronie. Strona → panel: panel przejmuje to, co wpisujesz na stronie, a zmiany w panelu zostają tylko w szablonie."
+  },
+  "recHelpPage": {
+    "message": "Klikaj pola formularza, które mają trafić do szablonu. To, co wpiszesz na stronie, trafia do panelu; zmiany w panelu zostają tylko w szablonie."
+  },
+  "themeAuto": {
+    "message": "Jak w systemie"
+  },
+  "themeLight": {
+    "message": "Jasny"
+  },
+  "themeDark": {
+    "message": "Ciemny"
+  },
+  "themeToggle": {
+    "message": "Zmień motyw"
+  },
+  "errNoAccess": {
+    "message": "FormDitto nie ma dostępu do tej strony. Kliknij ikonę FormDitto na pasku narzędzi przeglądarki lub zezwól na dostęp do strony."
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto nie ma jeszcze dostępu do tej karty. Kliknij ikonę FormDitto na pasku narzędzi przeglądarki."
+  },
+  "errPageChanged": {
+    "message": "Strona się zmieniła. Otwórz podgląd ponownie."
+  },
+  "errOtherSite": {
+    "message": "Ten szablon należy do $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Nie ma czego cofnąć: strona się zmieniła."
+  },
+  "errAgent": {
+    "message": "Na stronie wystąpił błąd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Wybierz co najmniej jedno pole."
+  },
+  "errTooManyFields": {
+    "message": "Za dużo pól (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Za dużo wariantów (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Za dużo szablonów (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Nie udało się zapisać: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "Plik jest większy niż 2 MB."
+  },
+  "errNotJson": {
+    "message": "To nie jest plik JSON."
+  },
+  "errSchema": {
+    "message": "Plik nie jest zgodny z formatem FormDitto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

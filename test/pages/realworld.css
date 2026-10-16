@@ -1,0 +1,11 @@
+/* Real-world simulator: the patterns below are what sites do (custom lists, modal, steps). */
+.sticky-head { position: sticky; top: 0; z-index: 5; background: #1f2937; color: #fff; padding: 10px 16px; }
+dialog { border: 0; border-radius: 14px; padding: 22px; width: min(420px, 90vw); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+dialog::backdrop { background: rgba(15, 23, 42, .45); }
+.fake-select { position: relative; }
+.fake-select select { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.fake-select .shown { border: 1px solid #c8cdd6; border-radius: 8px; padding: 8px 10px; background: #fff; cursor: pointer; }
+.fake-select ul { list-style: none; margin: 4px 0 0; padding: 4px; border: 1px solid #c8cdd6; border-radius: 8px; background: #fff; }
+.fake-select li { padding: 6px 8px; cursor: pointer; }
+.rich { min-height: 60px; border: 1px solid #c8cdd6; border-radius: 8px; padding: 8px 10px; background: #fff; }
+.step[hidden] { display: none; }

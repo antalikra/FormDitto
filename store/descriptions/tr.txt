@@ -1,0 +1,29 @@
+FormDitto, her gün aynı türde web formu gönderenler için bir otomatik form doldurma aracıdır: servis talepleri, siparişler, destek kayıtları, kayıt formları. Formu bir kez şablon olarak kaydedin, her durum için bir varyant tutun (“Pompa tipi B”, “Pompa tipi C”…) ve formun tamamını tek tıkla doldurun.
+
+NASIL ÇALIŞIR
+1. Formunuzu açın ve FormDitto simgesine tıklayın. Sayfanın yanında yan panel açılır.
+2. “Yeni şablon” düğmesine tıklayın, gereken alanlara tıklayın (veya “Görünür tüm alanları ekle”yi kullanın) ve değerlerini yazın.
+3. Bu değerler ilk varyantınız olur. Panelde yeni varyantlar ekleyin, kopyalayın ve düzenleyin.
+4. Sonraki sefer: bir varyant seçin, önizlemeyi kontrol edin, “Doldur”a tıklayın. Değişen alanlar vurgulanır, “Geri al” önceki değerleri geri yükler.
+
+NELERİ DOLDURUR
+• Metin, e-posta, telefon ve sayı alanları, çok satırlı metin alanları
+• Açılır listeler, onay kutuları, seçenek düğmeleri, tarihler
+• React ve Vue formları (kontrollü alanlar gerçek input ve change olayları alır)
+• Sonradan yüklenen listeler ve alanlar: FormDitto zaman sınırıyla onları bekler
+• Aynı sitedeki iframe'ler ve web bileşenleri (açık shadow DOM)
+
+GİZLİLİK VE GÜVENLİK
+• Şablonlar bu cihazdaki tarayıcınızda kalır. Hesap, sunucu, analiz ve ağ isteği yok.
+• Erişim her seferinde tek bir site için ve yalnızca siz izin verdiğinizde istenir.
+• Her şablon, kaydedildiği siteye bağlıdır. Başka herhangi bir sitede, örneğin portalınızın taklit bir kopyasında, FormDitto bir şey doldurmadan önce açık bir uyarı gösterir.
+• Parolaları, ödeme kartı alanlarını ve gizli alanları asla kaydetmez ve doldurmaz.
+• Formu asla göndermez. Formu siz kontrol eder ve “Gönder”e kendiniz tıklarsınız.
+
+İÇE VE DIŞA AKTARMA
+Şablonları JSON dosyası olarak başka bir bilgisayara taşıyın veya iş arkadaşlarınızla paylaşın. İçe aktarılan dosyalar sıkı biçimde denetlenir.
+
+ÜCRETSİZ
+Şablonlar, varyantlar, önizleme ve geri alma ücretsizdir. Abonelik yok.
+
+14 dilde kullanılabilir. Google Chrome ve Microsoft Edge 116 veya sonraki sürümlerde çalışır.

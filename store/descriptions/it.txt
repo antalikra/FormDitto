@@ -1,0 +1,29 @@
+FormDitto compila i moduli al posto tuo se ogni giorno invii lo stesso tipo di modulo web: richieste di assistenza, ordini, ticket, registrazioni. Salva il modulo una volta come modello, tieni una variante per ogni caso («Pompa tipo B», «Pompa tipo C»…) e compila l'intero modulo in un clic.
+
+COME FUNZIONA
+1. Apri il modulo e fai clic sull'icona di FormDitto. Accanto alla pagina si apre il pannello laterale.
+2. Fai clic su «Nuovo modello», fai clic sui campi che ti servono (oppure su «Aggiungi tutti i campi visibili») e inserisci i valori.
+3. Questi valori diventano la tua prima variante. Aggiungi altre varianti, copiale e modificale nel pannello.
+4. La volta successiva: scegli una variante, controlla l'anteprima e fai clic su «Compila». I campi modificati vengono evidenziati e «Annulla» ripristina i valori precedenti.
+
+COSA COMPILA
+• Campi di testo, e-mail, telefono e numero, aree di testo
+• Elenchi a discesa, caselle di controllo, pulsanti di opzione, date
+• Moduli React e Vue (i campi controllati ricevono veri eventi input e change)
+• Elenchi e campi che si caricano dopo: FormDitto li attende, con un tempo massimo
+• Iframe dello stesso sito e web component (shadow DOM aperto)
+
+PROGETTATO PER LA PRIVACY
+• I modelli restano nel tuo browser, su questo dispositivo. Nessun account, nessun server, nessuna analisi, nessuna richiesta di rete.
+• L'accesso viene chiesto per un sito alla volta e solo se lo consenti.
+• Ogni modello è legato al sito in cui è stato registrato. Su qualsiasi altro sito, ad esempio una copia che imita il tuo portale, FormDitto mostra un avviso chiaro prima di compilare qualcosa.
+• Non registra né compila mai password, campi di carte di pagamento o campi nascosti.
+• Non invia mai il modulo. Lo controlli tu e fai clic su «Invia».
+
+IMPORTAZIONE ED ESPORTAZIONE
+Sposta i modelli su un altro computer o condividili con i colleghi come file JSON. I file importati vengono controllati rigorosamente.
+
+GRATIS
+Modelli, varianti, anteprima e annullamento sono gratuiti. Nessun abbonamento.
+
+Disponibile in 14 lingue. Funziona in Google Chrome e Microsoft Edge 116 o versioni successive.

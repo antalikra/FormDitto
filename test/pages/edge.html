@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Edge cases · Matching and reading</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="edge" action="/submitted" method="post">
+  <h1>Edge cases</h1>
+  <p class="lead">Fields without ids, twins with the same label, a hidden checked radio, unavailable options.</p>
+  <fieldset>
+    <legend>Contact</legend>
+    <!-- No ids and no names: only labels and positions identify these two. -->
+    <div class="grid" id="contact">
+      <div class="f" id="wrapA"><label>Full name <input type="text"></label></div>
+      <div class="f" id="wrapB"><label>Company <input type="text"></label></div>
+    </div>
+    <!-- Twins: the same accessible name, told apart only by their ids. -->
+    <div class="grid">
+      <div class="f"><input type="text" id="primary" aria-label="Contact name"></div>
+      <div class="f"><input type="text" id="secondary" aria-label="Contact name"></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Order</legend>
+    <div class="f"><span class="lbl" id="delLbl">Delivery</span>
+      <div class="opts" role="radiogroup" aria-labelledby="delLbl">
+        <!-- An old choice the site keeps checked but hidden. -->
+        <input type="radio" name="delivery" value="saved-address-123" checked hidden>
+        <label><input type="radio" name="delivery" value="pickup"> Pickup</label>
+        <label><input type="radio" name="delivery" value="courier"> Courier</label>
+      </div></div>
+    <div class="grid">
+      <div class="f"><label for="plan">Plan</label>
+        <select id="plan" name="plan"><option value="">Choose…</option><option value="basic">Basic</option><option value="premium" disabled>Premium (unavailable)</option><optgroup label="Legacy" disabled><option value="old">Old plan</option></optgroup></select></div>
+      <div class="f"><label for="reference">Reference</label><input type="text" id="reference" name="reference"></div>
+      <div class="f"><label for="notes">Notes</label><input type="text" id="notes" name="notes"></div>
+    </div>
+  </fieldset>
+  <!-- A grid layout: labels sit in the previous column, not linked to the fields. -->
+  <div class="grid-rows">
+    <div class="row"><div class="col"><label class="form-label">Work email</label></div><div class="col"><input type="email" id="gridEmail" placeholder="name@example.com"></div></div>
+    <div class="row"><div class="col"><div>Shift</div></div><div class="col"><span><input type="radio" name="shift" value="day" id="shiftDay"><label for="shiftDay">Day</label></span> <span><input type="radio" name="shift" value="night" id="shiftNight"><label for="shiftNight">Night</label></span></div></div>
+  </div>
+  <div class="actions"><button type="submit">Send</button> <span id="submits"></span></div>
+</form>
+</div>
+</body>
+</html>

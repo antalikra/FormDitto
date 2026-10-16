@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: preenchimento automático de formulários com modelos"
+  },
+  "extDescription": {
+    "message": "Preencha formulários web repetitivos com um clique a partir de modelos salvos. Tudo local: sem conta, sem assinatura."
+  },
+  "actionTitle": {
+    "message": "Abrir FormDitto"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "back": {
+    "message": "Voltar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "save": {
+    "message": "Salvar"
+  },
+  "delete": {
+    "message": "Excluir"
+  },
+  "edit": {
+    "message": "Editar"
+  },
+  "duplicate": {
+    "message": "Duplicar"
+  },
+  "remove": {
+    "message": "Remover"
+  },
+  "rename": {
+    "message": "Renomear"
+  },
+  "done": {
+    "message": "Concluído"
+  },
+  "checked": {
+    "message": "Marcado"
+  },
+  "unchecked": {
+    "message": "Desmarcado"
+  },
+  "notSet": {
+    "message": "— não definido —"
+  },
+  "nothingFound": {
+    "message": "Nada encontrado."
+  },
+  "unnamedField": {
+    "message": "Campo sem nome"
+  },
+  "siteUnknownTitle": {
+    "message": "Ainda sem acesso a esta guia"
+  },
+  "siteUnknownBody": {
+    "message": "Clique no ícone do FormDitto na barra de ferramentas do navegador para trabalhar com esta guia. Para não precisar clicar sempre no seu portal, escolha depois “Sempre permitir neste site”."
+  },
+  "siteUnsupported": {
+    "message": "O FormDitto não funciona nesta página."
+  },
+  "accessGranted": {
+    "message": "Sempre permitido neste site"
+  },
+  "accessTemporary": {
+    "message": "Permitido nesta página até você sair dela"
+  },
+  "alwaysAllow": {
+    "message": "Sempre permitir neste site"
+  },
+  "accessNote": {
+    "message": "O FormDitto pede acesso apenas a este site."
+  },
+  "newTemplate": {
+    "message": "Novo modelo"
+  },
+  "searchTemplates": {
+    "message": "Pesquisar modelos e variantes"
+  },
+  "templatesHere": {
+    "message": "Modelos para este site"
+  },
+  "noTemplatesHere": {
+    "message": "Ainda não há modelos para este site. Clique em “Novo modelo” e escolha os campos do formulário."
+  },
+  "otherSites": {
+    "message": "Outros sites ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Todos os modelos ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Campos: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Variantes: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Importar"
+  },
+  "exportAll": {
+    "message": "Exportar tudo"
+  },
+  "localNote": {
+    "message": "Os modelos ficam salvos apenas neste navegador, neste dispositivo."
+  },
+  "recTitle": {
+    "message": "Gravando um modelo"
+  },
+  "recHelp": {
+    "message": "Clique nos campos do formulário que você quer no modelo. Digite os valores na página ou aqui mesmo: os dois ficam sincronizados e serão a primeira variante."
+  },
+  "recAddAll": {
+    "message": "Adicionar todos os campos visíveis"
+  },
+  "recEmpty": {
+    "message": "Nenhum campo selecionado ainda."
+  },
+  "recName": {
+    "message": "Nome do modelo"
+  },
+  "recNameDefault": {
+    "message": "Formulário em $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "Nome da primeira variante"
+  },
+  "firstVariantName": {
+    "message": "Variante 1"
+  },
+  "recSave": {
+    "message": "Salvar modelo"
+  },
+  "recBanner": {
+    "message": "FormDitto · clique nos campos para adicioná-los · selecionados: {n}"
+  },
+  "recHoverAdd": {
+    "message": "clique para adicionar"
+  },
+  "recHoverAdded": {
+    "message": "adicionado · você pode digitar um valor"
+  },
+  "recHoverBlocked": {
+    "message": "Não permitido"
+  },
+  "recBlocked": {
+    "message": "Não adicionado: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "A página não aceitou o valor de “$P1$”. O modelo mantém o valor do painel.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "A página substituiu o campo “$P1$” por um novo. Clique nele de novo na página para mantê-lo no modelo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Botões não são gravados. O formulário não foi enviado."
+  },
+  "recCancelledNav": {
+    "message": "Gravação interrompida: a página mudou."
+  },
+  "savedTemplate": {
+    "message": "Modelo “$P1$” salvo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Modelo “$P1$” salvo. Agora insira os valores da primeira variante.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "campo de senha"
+  },
+  "reason_payment": {
+    "message": "campo de cartão de pagamento"
+  },
+  "reason_otp": {
+    "message": "campo de código de uso único"
+  },
+  "reason_hidden_type": {
+    "message": "campo oculto"
+  },
+  "reason_not_rendered": {
+    "message": "campo oculto"
+  },
+  "reason_too_small": {
+    "message": "campo invisível (pequeno demais)"
+  },
+  "reason_invisible": {
+    "message": "campo invisível"
+  },
+  "reason_transparent": {
+    "message": "campo transparente"
+  },
+  "reason_clipped": {
+    "message": "campo cortado e oculto"
+  },
+  "reason_offscreen": {
+    "message": "campo fora da tela"
+  },
+  "reason_aria_hidden": {
+    "message": "campo oculto para os usuários"
+  },
+  "reason_inert": {
+    "message": "parte inativa da página"
+  },
+  "reason_detached": {
+    "message": "campo removido da página"
+  },
+  "reason_disabled": {
+    "message": "campo desativado"
+  },
+  "reason_readonly": {
+    "message": "campo somente leitura"
+  },
+  "reason_unsupported": {
+    "message": "tipo de campo não suportado"
+  },
+  "reason_submit": {
+    "message": "botão"
+  },
+  "kind_text": {
+    "message": "texto"
+  },
+  "kind_textarea": {
+    "message": "texto longo"
+  },
+  "kind_select": {
+    "message": "lista"
+  },
+  "kind_checkbox": {
+    "message": "caixa de seleção"
+  },
+  "kind_radio": {
+    "message": "opção"
+  },
+  "kind_date": {
+    "message": "data"
+  },
+  "recordedOn": {
+    "message": "Gravado em $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Pesquisar variantes"
+  },
+  "noVariants": {
+    "message": "Ainda não há variantes. Preencha o formulário manualmente e clique em “Nova variante da página”."
+  },
+  "fillBtn": {
+    "message": "Preencher"
+  },
+  "newVariantFromPage": {
+    "message": "Nova variante da página"
+  },
+  "newVariantEmpty": {
+    "message": "Variante vazia"
+  },
+  "fieldsHeading": {
+    "message": "Campos ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Remover campo do modelo"
+  },
+  "confirmDelete": {
+    "message": "Excluir esta variante?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Excluir o modelo e todas as suas variantes?"
+  },
+  "deleteTemplate": {
+    "message": "Excluir modelo"
+  },
+  "exportOne": {
+    "message": "Exportar"
+  },
+  "copySuffix": {
+    "message": "$P1$ (cópia)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Cópia criada: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Variante $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Editar variante"
+  },
+  "newVariantTitle": {
+    "message": "Nova variante"
+  },
+  "variantName": {
+    "message": "Nome da variante"
+  },
+  "leaveEmptyHint": {
+    "message": "Campos deixados em branco não são alterados no preenchimento."
+  },
+  "savedVariant": {
+    "message": "Variante “$P1$” salva.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Pré-visualização"
+  },
+  "previewUnchanged": {
+    "message": "Sem alterações: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Preencher campos ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Preencher mesmo assim"
+  },
+  "noSubmitNote": {
+    "message": "O FormDitto apenas preenche os campos. Você revisa e envia o formulário."
+  },
+  "mismatchTitle": {
+    "message": "Este não é o site em que o modelo foi gravado"
+  },
+  "mismatchTemplateSite": {
+    "message": "Site do modelo"
+  },
+  "mismatchThisPage": {
+    "message": "Esta página"
+  },
+  "mismatchBody": {
+    "message": "Se esta for uma cópia do seu portal, os dados preenchidos irão para outra pessoa."
+  },
+  "lookalikePunycode": {
+    "message": "O endereço usa caracteres internacionais parecidos."
+  },
+  "lookalikeSimilar": {
+    "message": "O endereço parece uma imitação do original."
+  },
+  "downgradeWarn": {
+    "message": "Esta página não é segura (http em vez de https)."
+  },
+  "mismatchAck": {
+    "message": "Entendo o risco, preencher esta página mesmo assim"
+  },
+  "st_ready": {
+    "message": "será preenchido"
+  },
+  "st_unchanged": {
+    "message": "já definido"
+  },
+  "st_skipped": {
+    "message": "fora da variante"
+  },
+  "st_waiting": {
+    "message": "aguardando campo"
+  },
+  "st_option_wait": {
+    "message": "aguardando opção"
+  },
+  "st_blocked": {
+    "message": "bloqueado: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "correspondência ambígua, ignorado"
+  },
+  "st_filled": {
+    "message": "preenchido"
+  },
+  "st_not_found": {
+    "message": "não encontrado"
+  },
+  "st_no_option": {
+    "message": "opção não encontrada"
+  },
+  "st_failed": {
+    "message": "a página recusou o valor"
+  },
+  "st_invalid": {
+    "message": "valor inválido"
+  },
+  "fillingProgress": {
+    "message": "Preenchendo… aguardando campos lentos, se necessário."
+  },
+  "resultTitle": {
+    "message": "Preenchido"
+  },
+  "undoneTitle": {
+    "message": "Desfeito"
+  },
+  "resultFilled": {
+    "message": "preenchidos"
+  },
+  "resultUnchanged": {
+    "message": "já corretos"
+  },
+  "resultProblems": {
+    "message": "não preenchidos"
+  },
+  "reviewNote": {
+    "message": "Confira o formulário e envie você mesmo."
+  },
+  "undo": {
+    "message": "Desfazer"
+  },
+  "undone": {
+    "message": "Valores anteriores restaurados: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Importar modelos"
+  },
+  "importSummary": {
+    "message": "Modelos no arquivo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Modelos importados só preenchem nos sites mostrados acima. Modelos com o mesmo id são adicionados como cópias."
+  },
+  "importConfirm": {
+    "message": "Importar"
+  },
+  "importDone": {
+    "message": "Modelos importados: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (importado)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Configurações salvas."
+  },
+  "waitLabel": {
+    "message": "Aguardar campos e listas lentos, segundos"
+  },
+  "waitHelp": {
+    "message": "Quanto tempo o preenchimento aguarda um campo ou uma opção de lista que aparece depois, por exemplo uma lista de modelos carregada após escolher o tipo de equipamento. Campos que nunca aparecem são marcados como não encontrados."
+  },
+  "sitesHeading": {
+    "message": "Sites com acesso permanente"
+  },
+  "noSites": {
+    "message": "Nenhum."
+  },
+  "removeAccess": {
+    "message": "Remover acesso"
+  },
+  "privacyHeading": {
+    "message": "Privacidade"
+  },
+  "privacyText": {
+    "message": "Os modelos ficam salvos apenas neste navegador, neste dispositivo. O FormDitto não tem servidor, conta nem análises e não faz solicitações de rede. Ele nunca preenche senhas, cartões de pagamento ou campos ocultos e nunca envia formulários."
+  },
+  "versionLabel": {
+    "message": "Versão $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Idioma"
+  },
+  "langAuto": {
+    "message": "Igual ao navegador ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ s",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Mostrar valores"
+  },
+  "generalHeading": {
+    "message": "Geral"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "syncLabel": {
+    "message": "Página e painel durante a gravação"
+  },
+  "syncBoth": {
+    "message": "Nos dois sentidos"
+  },
+  "syncPage": {
+    "message": "Página → painel"
+  },
+  "syncHelp": {
+    "message": "Nos dois sentidos: o que você digita no painel também vai para o formulário da página. Página → painel: o painel recebe o que você digita na página, e as alterações feitas no painel ficam só no modelo."
+  },
+  "recHelpPage": {
+    "message": "Clique nos campos do formulário que você quer no modelo. O que você digita na página vai para o painel; as alterações feitas no painel ficam só no modelo."
+  },
+  "themeAuto": {
+    "message": "Igual ao sistema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "themeToggle": {
+    "message": "Mudar tema"
+  },
+  "errNoAccess": {
+    "message": "O FormDitto não tem acesso a esta página. Clique no ícone do FormDitto na barra de ferramentas do navegador ou permita o acesso ao site."
+  },
+  "errNoTabAccess": {
+    "message": "O FormDitto ainda não tem acesso a esta guia. Clique no ícone do FormDitto na barra de ferramentas do navegador."
+  },
+  "errPageChanged": {
+    "message": "A página mudou. Abra a pré-visualização novamente."
+  },
+  "errOtherSite": {
+    "message": "Este modelo pertence a $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Nada para desfazer: a página mudou."
+  },
+  "errAgent": {
+    "message": "Algo deu errado na página: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Selecione pelo menos um campo."
+  },
+  "errTooManyFields": {
+    "message": "Campos demais (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Variantes demais (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Modelos demais (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Não foi possível salvar: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "O arquivo tem mais de 2 MB."
+  },
+  "errNotJson": {
+    "message": "Este não é um arquivo JSON."
+  },
+  "errSchema": {
+    "message": "O arquivo não corresponde ao formato do FormDitto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

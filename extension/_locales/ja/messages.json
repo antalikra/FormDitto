@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto：テンプレートでフォームを自動入力"
+  },
+  "extDescription": {
+    "message": "保存したテンプレートで、繰り返し入力するWebフォームをワンクリックで入力。すべてローカルで動作し、アカウントもサブスクリプションも不要です。"
+  },
+  "actionTitle": {
+    "message": "FormDitto を開く"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "duplicate": {
+    "message": "複製"
+  },
+  "remove": {
+    "message": "外す"
+  },
+  "rename": {
+    "message": "名前を変更"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "checked": {
+    "message": "チェックあり"
+  },
+  "unchecked": {
+    "message": "チェックなし"
+  },
+  "notSet": {
+    "message": "— 未設定 —"
+  },
+  "nothingFound": {
+    "message": "見つかりませんでした。"
+  },
+  "unnamedField": {
+    "message": "名前のない項目"
+  },
+  "siteUnknownTitle": {
+    "message": "このタブにはまだアクセスできません"
+  },
+  "siteUnknownBody": {
+    "message": "このタブで使うには、ブラウザのツールバーにある FormDitto アイコンをクリックしてください。ポータルで毎回クリックしなくて済むように、その後「このサイトで常に許可」を選べます。"
+  },
+  "siteUnsupported": {
+    "message": "このページでは FormDitto を使用できません。"
+  },
+  "accessGranted": {
+    "message": "このサイトで常に許可されています"
+  },
+  "accessTemporary": {
+    "message": "このページを離れるまで許可されています"
+  },
+  "alwaysAllow": {
+    "message": "このサイトで常に許可"
+  },
+  "accessNote": {
+    "message": "FormDitto が要求するのはこのサイトへのアクセスだけです。"
+  },
+  "newTemplate": {
+    "message": "新しいテンプレート"
+  },
+  "searchTemplates": {
+    "message": "テンプレートとバリエーションを検索"
+  },
+  "templatesHere": {
+    "message": "このサイトのテンプレート"
+  },
+  "noTemplatesHere": {
+    "message": "このサイトのテンプレートはまだありません。「新しいテンプレート」をクリックして、フォームの項目を選んでください。"
+  },
+  "otherSites": {
+    "message": "他のサイト（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "すべてのテンプレート（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "項目：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "バリエーション：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "インポート"
+  },
+  "exportAll": {
+    "message": "すべてエクスポート"
+  },
+  "localNote": {
+    "message": "テンプレートはこのデバイスのこのブラウザにのみ保存されます。"
+  },
+  "recTitle": {
+    "message": "テンプレートを記録中"
+  },
+  "recHelp": {
+    "message": "テンプレートに含めるフォームの項目をクリックしてください。値はページ上でも、ここでも入力でき、両方が同期されます。入力した値が最初のバリエーションになります。"
+  },
+  "recAddAll": {
+    "message": "表示中の項目をすべて追加"
+  },
+  "recEmpty": {
+    "message": "まだ項目が選択されていません。"
+  },
+  "recName": {
+    "message": "テンプレート名"
+  },
+  "recNameDefault": {
+    "message": "$P1$ のフォーム",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "最初のバリエーション名"
+  },
+  "firstVariantName": {
+    "message": "バリエーション 1"
+  },
+  "recSave": {
+    "message": "テンプレートを保存"
+  },
+  "recBanner": {
+    "message": "FormDitto · 項目をクリックして追加 · 選択中：{n}"
+  },
+  "recHoverAdd": {
+    "message": "クリックで追加"
+  },
+  "recHoverAdded": {
+    "message": "追加済み · 値を入力できます"
+  },
+  "recHoverBlocked": {
+    "message": "追加できません"
+  },
+  "recBlocked": {
+    "message": "追加されませんでした：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "ページが「$P1$」の値を受け付けませんでした。テンプレートにはパネルの値が保存されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "ページが項目「$P1$」を新しいものに置き換えました。テンプレートに残すには、ページ上でもう一度クリックしてください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "ボタンは記録されません。フォームは送信されていません。"
+  },
+  "recCancelledNav": {
+    "message": "ページが変わったため、記録を停止しました。"
+  },
+  "savedTemplate": {
+    "message": "テンプレート「$P1$」を保存しました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "テンプレート「$P1$」を保存しました。最初のバリエーションの値を入力してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "パスワード欄"
+  },
+  "reason_payment": {
+    "message": "支払いカード欄"
+  },
+  "reason_otp": {
+    "message": "ワンタイムコード欄"
+  },
+  "reason_hidden_type": {
+    "message": "非表示の項目"
+  },
+  "reason_not_rendered": {
+    "message": "非表示の項目"
+  },
+  "reason_too_small": {
+    "message": "見えない項目（小さすぎる）"
+  },
+  "reason_invisible": {
+    "message": "見えない項目"
+  },
+  "reason_transparent": {
+    "message": "透明な項目"
+  },
+  "reason_clipped": {
+    "message": "切り取られて隠れた項目"
+  },
+  "reason_offscreen": {
+    "message": "画面外に置かれた項目"
+  },
+  "reason_aria_hidden": {
+    "message": "ユーザーから隠された項目"
+  },
+  "reason_inert": {
+    "message": "ページの無効な部分"
+  },
+  "reason_detached": {
+    "message": "ページから削除された項目"
+  },
+  "reason_disabled": {
+    "message": "無効な項目"
+  },
+  "reason_readonly": {
+    "message": "読み取り専用の項目"
+  },
+  "reason_unsupported": {
+    "message": "対応していない項目の種類"
+  },
+  "reason_submit": {
+    "message": "ボタン"
+  },
+  "kind_text": {
+    "message": "テキスト"
+  },
+  "kind_textarea": {
+    "message": "長いテキスト"
+  },
+  "kind_select": {
+    "message": "リスト"
+  },
+  "kind_checkbox": {
+    "message": "チェックボックス"
+  },
+  "kind_radio": {
+    "message": "選択肢"
+  },
+  "kind_date": {
+    "message": "日付"
+  },
+  "recordedOn": {
+    "message": "$P1$ で記録",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "バリエーションを検索"
+  },
+  "noVariants": {
+    "message": "バリエーションはまだありません。フォームに手で入力し、「ページから新しいバリエーション」をクリックしてください。"
+  },
+  "fillBtn": {
+    "message": "入力"
+  },
+  "newVariantFromPage": {
+    "message": "ページから新しいバリエーション"
+  },
+  "newVariantEmpty": {
+    "message": "空のバリエーション"
+  },
+  "fieldsHeading": {
+    "message": "項目（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "テンプレートから項目を外す"
+  },
+  "confirmDelete": {
+    "message": "このバリエーションを削除しますか？"
+  },
+  "confirmDeleteTemplate": {
+    "message": "テンプレートとすべてのバリエーションを削除しますか？"
+  },
+  "deleteTemplate": {
+    "message": "テンプレートを削除"
+  },
+  "exportOne": {
+    "message": "エクスポート"
+  },
+  "copySuffix": {
+    "message": "$P1$（コピー）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "コピーを作成しました：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "バリエーション $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "バリエーションを編集"
+  },
+  "newVariantTitle": {
+    "message": "新しいバリエーション"
+  },
+  "variantName": {
+    "message": "バリエーション名"
+  },
+  "leaveEmptyHint": {
+    "message": "空欄の項目は入力時に変更されません。"
+  },
+  "savedVariant": {
+    "message": "バリエーション「$P1$」を保存しました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "プレビュー"
+  },
+  "previewUnchanged": {
+    "message": "変更なし: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "$P1$ 項目を入力",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "それでも入力"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto は項目を入力するだけです。フォームの確認と送信はご自身で行ってください。"
+  },
+  "mismatchTitle": {
+    "message": "テンプレートを記録したサイトではありません"
+  },
+  "mismatchTemplateSite": {
+    "message": "テンプレートのサイト"
+  },
+  "mismatchThisPage": {
+    "message": "このページ"
+  },
+  "mismatchBody": {
+    "message": "ポータルを装ったコピーの場合、入力したデータは第三者に渡ります。"
+  },
+  "lookalikePunycode": {
+    "message": "アドレスに紛らわしい国際文字が使われています。"
+  },
+  "lookalikeSimilar": {
+    "message": "アドレスが本物を装ったものに見えます。"
+  },
+  "downgradeWarn": {
+    "message": "このページは安全ではありません（https ではなく http）。"
+  },
+  "mismatchAck": {
+    "message": "リスクを理解したうえで、このページに入力する"
+  },
+  "st_ready": {
+    "message": "入力予定"
+  },
+  "st_unchanged": {
+    "message": "設定済み"
+  },
+  "st_skipped": {
+    "message": "バリエーションにない"
+  },
+  "st_waiting": {
+    "message": "まだページにないため待機"
+  },
+  "st_option_wait": {
+    "message": "選択肢が未読み込みのため待機"
+  },
+  "st_blocked": {
+    "message": "ブロック：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "一致が曖昧なためスキップ"
+  },
+  "st_filled": {
+    "message": "入力済み"
+  },
+  "st_not_found": {
+    "message": "見つかりません"
+  },
+  "st_no_option": {
+    "message": "選択肢が見つかりません"
+  },
+  "st_failed": {
+    "message": "ページが値を受け付けませんでした"
+  },
+  "st_invalid": {
+    "message": "無効な値"
+  },
+  "fillingProgress": {
+    "message": "入力中… 必要に応じて項目の読み込みを待っています。"
+  },
+  "resultTitle": {
+    "message": "入力しました"
+  },
+  "undoneTitle": {
+    "message": "元に戻しました"
+  },
+  "resultFilled": {
+    "message": "入力"
+  },
+  "resultUnchanged": {
+    "message": "変更なし"
+  },
+  "resultProblems": {
+    "message": "未入力"
+  },
+  "reviewNote": {
+    "message": "フォームを確認し、ご自身で送信してください。"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "undone": {
+    "message": "以前の値に戻しました：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "テンプレートをインポート"
+  },
+  "importSummary": {
+    "message": "ファイル内のテンプレート：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "インポートしたテンプレートは、上に表示されたサイトでのみ入力します。同じ ID のテンプレートはコピーとして追加されます。"
+  },
+  "importConfirm": {
+    "message": "インポート"
+  },
+  "importDone": {
+    "message": "インポートしたテンプレート：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$（インポート）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました。"
+  },
+  "waitLabel": {
+    "message": "項目やリストの読み込み待ち時間（秒）"
+  },
+  "waitHelp": {
+    "message": "後から表示される項目やリストの選択肢を、入力時にどれだけ待つかを指定します。例：機器の種類を選んだ後に読み込まれるモデル一覧。最後まで表示されなかった項目は「見つかりません」と表示されます。"
+  },
+  "sitesHeading": {
+    "message": "常にアクセスを許可しているサイト"
+  },
+  "noSites": {
+    "message": "なし"
+  },
+  "removeAccess": {
+    "message": "アクセス許可を取り消す"
+  },
+  "privacyHeading": {
+    "message": "プライバシー"
+  },
+  "privacyText": {
+    "message": "テンプレートはこのデバイスのこのブラウザにのみ保存されます。FormDitto にはサーバー、アカウント、分析機能はなく、ネットワーク通信も行いません。パスワード、支払いカード、非表示の項目に入力することはなく、フォームを送信することもありません。"
+  },
+  "versionLabel": {
+    "message": "バージョン $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "言語"
+  },
+  "langAuto": {
+    "message": "ブラウザーと同じ（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ 秒",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "値を表示"
+  },
+  "generalHeading": {
+    "message": "一般"
+  },
+  "themeLabel": {
+    "message": "テーマ"
+  },
+  "syncLabel": {
+    "message": "記録中のページとパネル"
+  },
+  "syncBoth": {
+    "message": "双方向"
+  },
+  "syncPage": {
+    "message": "ページ → パネル"
+  },
+  "syncHelp": {
+    "message": "双方向：パネルで入力した値はページのフォームにも入力されます。ページ → パネル：ページで入力した値はパネルに反映されますが、パネルでの変更はテンプレートにのみ保存されます。"
+  },
+  "recHelpPage": {
+    "message": "テンプレートに含めるフォームの項目をクリックしてください。ページで入力した値はパネルに反映され、パネルでの変更はテンプレートにのみ保存されます。"
+  },
+  "themeAuto": {
+    "message": "システムと同じ"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeToggle": {
+    "message": "テーマを切り替え"
+  },
+  "errNoAccess": {
+    "message": "FormDitto はこのページにアクセスできません。ブラウザのツールバーにある FormDitto アイコンをクリックするか、サイトへのアクセスを許可してください。"
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto はまだこのタブにアクセスできません。ブラウザのツールバーにある FormDitto アイコンをクリックしてください。"
+  },
+  "errPageChanged": {
+    "message": "ページが変わりました。プレビューを開き直してください。"
+  },
+  "errOtherSite": {
+    "message": "このテンプレートは $P1$ 用です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "ページが変わったため、元に戻せるものはありません。"
+  },
+  "errAgent": {
+    "message": "ページで問題が発生しました：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "項目を 1 つ以上選択してください。"
+  },
+  "errTooManyFields": {
+    "message": "項目が多すぎます（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "バリエーションが多すぎます（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "テンプレートが多すぎます（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "保存できませんでした：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "ファイルが 2 MB を超えています。"
+  },
+  "errNotJson": {
+    "message": "JSON ファイルではありません。"
+  },
+  "errSchema": {
+    "message": "ファイルが FormDitto の形式と一致しません：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

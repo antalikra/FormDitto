@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: Şablonlarla Otomatik Form Doldurma"
+  },
+  "extDescription": {
+    "message": "Tekrarlanan web formlarını kayıtlı şablonlarla tek tıkla doldurun. Her şey yerel: hesap yok, abonelik yok."
+  },
+  "actionTitle": {
+    "message": "FormDitto'yu aç"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "delete": {
+    "message": "Sil"
+  },
+  "edit": {
+    "message": "Düzenle"
+  },
+  "duplicate": {
+    "message": "Çoğalt"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "rename": {
+    "message": "Yeniden adlandır"
+  },
+  "done": {
+    "message": "Bitti"
+  },
+  "checked": {
+    "message": "İşaretli"
+  },
+  "unchecked": {
+    "message": "İşaretsiz"
+  },
+  "notSet": {
+    "message": "— ayarlanmadı —"
+  },
+  "nothingFound": {
+    "message": "Hiçbir şey bulunamadı."
+  },
+  "unnamedField": {
+    "message": "Adsız alan"
+  },
+  "siteUnknownTitle": {
+    "message": "Bu sekmeye henüz erişim yok"
+  },
+  "siteUnknownBody": {
+    "message": "Bu sekmeyle çalışmak için tarayıcı araç çubuğundaki FormDitto simgesine tıklayın. Portalınızda bu tıklamayı atlamak için ardından “Bu sitede her zaman izin ver” seçeneğini seçin."
+  },
+  "siteUnsupported": {
+    "message": "FormDitto bu sayfada çalışamaz."
+  },
+  "accessGranted": {
+    "message": "Bu sitede her zaman izinli"
+  },
+  "accessTemporary": {
+    "message": "Bu sayfadan ayrılana kadar izinli"
+  },
+  "alwaysAllow": {
+    "message": "Bu sitede her zaman izin ver"
+  },
+  "accessNote": {
+    "message": "FormDitto yalnızca bu siteye erişim ister."
+  },
+  "newTemplate": {
+    "message": "Yeni şablon"
+  },
+  "searchTemplates": {
+    "message": "Şablon ve varyant ara"
+  },
+  "templatesHere": {
+    "message": "Bu sitenin şablonları"
+  },
+  "noTemplatesHere": {
+    "message": "Bu site için henüz şablon yok. “Yeni şablon” düğmesine tıklayın ve form alanlarını seçin."
+  },
+  "otherSites": {
+    "message": "Diğer siteler ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Tüm şablonlar ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Alan: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Varyant: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "İçe aktar"
+  },
+  "exportAll": {
+    "message": "Tümünü dışa aktar"
+  },
+  "localNote": {
+    "message": "Şablonlar yalnızca bu cihazdaki bu tarayıcıda saklanır."
+  },
+  "recTitle": {
+    "message": "Şablon kaydediliyor"
+  },
+  "recHelp": {
+    "message": "Şablona eklemek istediğiniz form alanlarına tıklayın. Değerleri sayfada veya doğrudan burada girin: ikisi eşitlenir ve ilk varyant olur."
+  },
+  "recAddAll": {
+    "message": "Görünür tüm alanları ekle"
+  },
+  "recEmpty": {
+    "message": "Henüz alan seçilmedi."
+  },
+  "recName": {
+    "message": "Şablon adı"
+  },
+  "recNameDefault": {
+    "message": "$P1$ formu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "İlk varyantın adı"
+  },
+  "firstVariantName": {
+    "message": "Varyant 1"
+  },
+  "recSave": {
+    "message": "Şablonu kaydet"
+  },
+  "recBanner": {
+    "message": "FormDitto · eklemek için alanlara tıklayın · seçilen: {n}"
+  },
+  "recHoverAdd": {
+    "message": "eklemek için tıklayın"
+  },
+  "recHoverAdded": {
+    "message": "eklendi · değer girebilirsiniz"
+  },
+  "recHoverBlocked": {
+    "message": "İzin verilmiyor"
+  },
+  "recBlocked": {
+    "message": "Eklenmedi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "Sayfa “$P1$” alanının değerini kabul etmedi. Şablon, paneldeki değeri korur.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "Sayfa “$P1$” alanını yenisiyle değiştirdi. Şablonda kalması için sayfada ona yeniden tıklayın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Düğmeler kaydedilmez. Form gönderilmedi."
+  },
+  "recCancelledNav": {
+    "message": "Kayıt durdu: sayfa değişti."
+  },
+  "savedTemplate": {
+    "message": "“$P1$” şablonu kaydedildi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "“$P1$” şablonu kaydedildi. Şimdi ilk varyantın değerlerini girin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "parola alanı"
+  },
+  "reason_payment": {
+    "message": "ödeme kartı alanı"
+  },
+  "reason_otp": {
+    "message": "tek kullanımlık kod alanı"
+  },
+  "reason_hidden_type": {
+    "message": "gizli alan"
+  },
+  "reason_not_rendered": {
+    "message": "gizli alan"
+  },
+  "reason_too_small": {
+    "message": "görünmez alan (çok küçük)"
+  },
+  "reason_invisible": {
+    "message": "görünmez alan"
+  },
+  "reason_transparent": {
+    "message": "saydam alan"
+  },
+  "reason_clipped": {
+    "message": "kırpılmış, gizli alan"
+  },
+  "reason_offscreen": {
+    "message": "ekran dışına yerleştirilmiş alan"
+  },
+  "reason_aria_hidden": {
+    "message": "kullanıcılardan gizlenmiş alan"
+  },
+  "reason_inert": {
+    "message": "sayfanın etkin olmayan bölümü"
+  },
+  "reason_detached": {
+    "message": "sayfadan kaldırılmış alan"
+  },
+  "reason_disabled": {
+    "message": "devre dışı alan"
+  },
+  "reason_readonly": {
+    "message": "salt okunur alan"
+  },
+  "reason_unsupported": {
+    "message": "desteklenmeyen alan türü"
+  },
+  "reason_submit": {
+    "message": "düğme"
+  },
+  "kind_text": {
+    "message": "metin"
+  },
+  "kind_textarea": {
+    "message": "uzun metin"
+  },
+  "kind_select": {
+    "message": "liste"
+  },
+  "kind_checkbox": {
+    "message": "onay kutusu"
+  },
+  "kind_radio": {
+    "message": "seçim"
+  },
+  "kind_date": {
+    "message": "tarih"
+  },
+  "recordedOn": {
+    "message": "$P1$ üzerinde kaydedildi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Varyant ara"
+  },
+  "noVariants": {
+    "message": "Henüz varyant yok. Formu elle doldurun ve “Sayfadan yeni varyant” düğmesine tıklayın."
+  },
+  "fillBtn": {
+    "message": "Doldur"
+  },
+  "newVariantFromPage": {
+    "message": "Sayfadan yeni varyant"
+  },
+  "newVariantEmpty": {
+    "message": "Boş varyant"
+  },
+  "fieldsHeading": {
+    "message": "Alanlar ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Alanı şablondan kaldır"
+  },
+  "confirmDelete": {
+    "message": "Bu varyant silinsin mi?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Şablon ve tüm varyantları silinsin mi?"
+  },
+  "deleteTemplate": {
+    "message": "Şablonu sil"
+  },
+  "exportOne": {
+    "message": "Dışa aktar"
+  },
+  "copySuffix": {
+    "message": "$P1$ (kopya)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Kopya oluşturuldu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Varyant $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Varyantı düzenle"
+  },
+  "newVariantTitle": {
+    "message": "Yeni varyant"
+  },
+  "variantName": {
+    "message": "Varyant adı"
+  },
+  "leaveEmptyHint": {
+    "message": "Boş bırakılan alanlara doldururken dokunulmaz."
+  },
+  "savedVariant": {
+    "message": "“$P1$” varyantı kaydedildi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Önizleme"
+  },
+  "previewUnchanged": {
+    "message": "Değişmeyecek: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "$P1$ alanı doldur",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Yine de doldur"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto yalnızca alanları doldurur. Formu siz kontrol edip gönderirsiniz."
+  },
+  "mismatchTitle": {
+    "message": "Bu, şablonun kaydedildiği site değil"
+  },
+  "mismatchTemplateSite": {
+    "message": "Şablonun sitesi"
+  },
+  "mismatchThisPage": {
+    "message": "Bu sayfa"
+  },
+  "mismatchBody": {
+    "message": "Bu, portalınızın bir kopyasıysa girdiğiniz veriler başkasına gider."
+  },
+  "lookalikePunycode": {
+    "message": "Adreste benzer görünen uluslararası karakterler var."
+  },
+  "lookalikeSimilar": {
+    "message": "Adres, orijinalin taklidine benziyor."
+  },
+  "downgradeWarn": {
+    "message": "Bu sayfa güvenli değil (https yerine http)."
+  },
+  "mismatchAck": {
+    "message": "Riski anlıyorum, bu sayfayı yine de doldur"
+  },
+  "st_ready": {
+    "message": "doldurulacak"
+  },
+  "st_unchanged": {
+    "message": "zaten ayarlı"
+  },
+  "st_skipped": {
+    "message": "varyantta yok"
+  },
+  "st_waiting": {
+    "message": "henüz sayfada yok, beklenecek"
+  },
+  "st_option_wait": {
+    "message": "seçenek henüz yüklenmedi, beklenecek"
+  },
+  "st_blocked": {
+    "message": "engellendi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "belirsiz eşleşme, atlandı"
+  },
+  "st_filled": {
+    "message": "dolduruldu"
+  },
+  "st_not_found": {
+    "message": "bulunamadı"
+  },
+  "st_no_option": {
+    "message": "seçenek bulunamadı"
+  },
+  "st_failed": {
+    "message": "sayfa değeri kabul etmedi"
+  },
+  "st_invalid": {
+    "message": "geçersiz değer"
+  },
+  "fillingProgress": {
+    "message": "Dolduruluyor… gerekirse yavaş alanlar bekleniyor."
+  },
+  "resultTitle": {
+    "message": "Dolduruldu"
+  },
+  "undoneTitle": {
+    "message": "Geri alındı"
+  },
+  "resultFilled": {
+    "message": "dolduruldu"
+  },
+  "resultUnchanged": {
+    "message": "zaten doğru"
+  },
+  "resultProblems": {
+    "message": "doldurulmadı"
+  },
+  "reviewNote": {
+    "message": "Formu kontrol edin ve kendiniz gönderin."
+  },
+  "undo": {
+    "message": "Geri al"
+  },
+  "undone": {
+    "message": "Önceki değerler geri yüklendi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Şablonları içe aktar"
+  },
+  "importSummary": {
+    "message": "Dosyadaki şablonlar: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "İçe aktarılan şablonlar yalnızca yukarıda gösterilen sitelerdeki formları doldurur. Aynı kimliğe sahip şablonlar kopya olarak eklenir."
+  },
+  "importConfirm": {
+    "message": "İçe aktar"
+  },
+  "importDone": {
+    "message": "İçe aktarılan şablonlar: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (içe aktarıldı)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Ayarlar kaydedildi."
+  },
+  "waitLabel": {
+    "message": "Yavaş alanlar ve listeler için bekleme, saniye"
+  },
+  "waitHelp": {
+    "message": "Doldurma sırasında sonradan görünen bir alanın veya liste seçeneğinin ne kadar bekleneceği; örneğin ekipman türünü seçtikten sonra yüklenen model listesi. Hiç görünmeyen alanlar bulunamadı olarak bildirilir."
+  },
+  "sitesHeading": {
+    "message": "Kalıcı erişimi olan siteler"
+  },
+  "noSites": {
+    "message": "Yok."
+  },
+  "removeAccess": {
+    "message": "Erişimi kaldır"
+  },
+  "privacyHeading": {
+    "message": "Gizlilik"
+  },
+  "privacyText": {
+    "message": "Şablonlar yalnızca bu cihazdaki bu tarayıcıda saklanır. FormDitto'nun sunucusu, hesabı ve analitiği yoktur; ağ isteği yapmaz. Parolaları, ödeme kartlarını veya gizli alanları asla doldurmaz ve formları asla göndermez."
+  },
+  "versionLabel": {
+    "message": "Sürüm $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Dil"
+  },
+  "langAuto": {
+    "message": "Tarayıcıdaki gibi ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ sn",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Değerleri göster"
+  },
+  "generalHeading": {
+    "message": "Genel"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "syncLabel": {
+    "message": "Kayıt sırasında sayfa ve panel"
+  },
+  "syncBoth": {
+    "message": "İki yönlü"
+  },
+  "syncPage": {
+    "message": "Sayfa → panel"
+  },
+  "syncHelp": {
+    "message": "İki yönlü: panelde girdiğiniz değer sayfadaki forma da yazılır. Sayfa → panel: panel sayfada yazdıklarınızı alır, paneldeki değişiklikler ise yalnızca şablonda kalır."
+  },
+  "recHelpPage": {
+    "message": "Şablona eklemek istediğiniz form alanlarına tıklayın. Sayfada yazdıklarınız panele gelir; paneldeki değişiklikler yalnızca şablonda kalır."
+  },
+  "themeAuto": {
+    "message": "Sistemdeki gibi"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "themeToggle": {
+    "message": "Temayı değiştir"
+  },
+  "errNoAccess": {
+    "message": "FormDitto'nun bu sayfaya erişimi yok. Tarayıcı araç çubuğundaki FormDitto simgesine tıklayın veya siteye erişim izni verin."
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto'nun bu sekmeye henüz erişimi yok. Tarayıcı araç çubuğundaki FormDitto simgesine tıklayın."
+  },
+  "errPageChanged": {
+    "message": "Sayfa değişti. Önizlemeyi yeniden açın."
+  },
+  "errOtherSite": {
+    "message": "Bu şablon $P1$ sitesine ait.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Geri alınacak bir şey yok: sayfa değişti."
+  },
+  "errAgent": {
+    "message": "Sayfada bir sorun oluştu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "En az bir alan seçin."
+  },
+  "errTooManyFields": {
+    "message": "Çok fazla alan (sınır $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Çok fazla varyant (sınır $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Çok fazla şablon (sınır $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Kaydedilemedi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "Dosya 2 MB'tan büyük."
+  },
+  "errNotJson": {
+    "message": "Bu bir JSON dosyası değil."
+  },
+  "errSchema": {
+    "message": "Dosya FormDitto biçimine uymuyor: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

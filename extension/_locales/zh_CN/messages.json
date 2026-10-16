@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto：用模板自动填写表单"
+  },
+  "extDescription": {
+    "message": "使用已保存的模板，一键填写重复的网页表单。完全在本地运行：无需账号，无需订阅。"
+  },
+  "actionTitle": {
+    "message": "打开 FormDitto"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "duplicate": {
+    "message": "复制"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "checked": {
+    "message": "已勾选"
+  },
+  "unchecked": {
+    "message": "未勾选"
+  },
+  "notSet": {
+    "message": "— 未设置 —"
+  },
+  "nothingFound": {
+    "message": "未找到结果。"
+  },
+  "unnamedField": {
+    "message": "未命名字段"
+  },
+  "siteUnknownTitle": {
+    "message": "尚无权访问此标签页"
+  },
+  "siteUnknownBody": {
+    "message": "点击浏览器工具栏中的 FormDitto 图标，即可在此标签页中使用。如不想在您的门户网站上每次都点击，可随后选择“始终允许此网站”。"
+  },
+  "siteUnsupported": {
+    "message": "FormDitto 无法在此页面上使用。"
+  },
+  "accessGranted": {
+    "message": "已始终允许此网站"
+  },
+  "accessTemporary": {
+    "message": "已允许访问，离开此页面后失效"
+  },
+  "alwaysAllow": {
+    "message": "始终允许此网站"
+  },
+  "accessNote": {
+    "message": "FormDitto 只请求访问这一个网站。"
+  },
+  "newTemplate": {
+    "message": "新建模板"
+  },
+  "searchTemplates": {
+    "message": "搜索模板和变体"
+  },
+  "templatesHere": {
+    "message": "此网站的模板"
+  },
+  "noTemplatesHere": {
+    "message": "此网站还没有模板。点击“新建模板”并选择表单字段。"
+  },
+  "otherSites": {
+    "message": "其他网站（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "所有模板（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "字段：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "变体：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "导入"
+  },
+  "exportAll": {
+    "message": "全部导出"
+  },
+  "localNote": {
+    "message": "模板仅保存在此设备上的此浏览器中。"
+  },
+  "recTitle": {
+    "message": "正在录制模板"
+  },
+  "recHelp": {
+    "message": "点击要加入模板的表单字段。可以在页面上或直接在这里输入值：两边会保持同步，这些值将成为第一个变体。"
+  },
+  "recAddAll": {
+    "message": "添加所有可见字段"
+  },
+  "recEmpty": {
+    "message": "尚未选择字段。"
+  },
+  "recName": {
+    "message": "模板名称"
+  },
+  "recNameDefault": {
+    "message": "$P1$ 上的表单",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "第一个变体的名称"
+  },
+  "firstVariantName": {
+    "message": "变体 1"
+  },
+  "recSave": {
+    "message": "保存模板"
+  },
+  "recBanner": {
+    "message": "FormDitto · 点击字段即可添加 · 已选择：{n}"
+  },
+  "recHoverAdd": {
+    "message": "点击添加"
+  },
+  "recHoverAdded": {
+    "message": "已添加 · 可以输入值"
+  },
+  "recHoverBlocked": {
+    "message": "不允许"
+  },
+  "recBlocked": {
+    "message": "未添加：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "页面未接受“$P1$”的值。模板将保留面板中的值。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "页面已将字段“$P1$”替换为新字段。请在页面上再次点击它，以将其保留在模板中。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "不会录制按钮。表单未提交。"
+  },
+  "recCancelledNav": {
+    "message": "录制已停止：页面已更改。"
+  },
+  "savedTemplate": {
+    "message": "已保存模板“$P1$”。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "已保存模板“$P1$”。现在请输入第一个变体的值。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "密码字段"
+  },
+  "reason_payment": {
+    "message": "支付卡字段"
+  },
+  "reason_otp": {
+    "message": "一次性验证码字段"
+  },
+  "reason_hidden_type": {
+    "message": "隐藏字段"
+  },
+  "reason_not_rendered": {
+    "message": "隐藏字段"
+  },
+  "reason_too_small": {
+    "message": "不可见字段（太小）"
+  },
+  "reason_invisible": {
+    "message": "不可见字段"
+  },
+  "reason_transparent": {
+    "message": "透明字段"
+  },
+  "reason_clipped": {
+    "message": "被裁剪的隐藏字段"
+  },
+  "reason_offscreen": {
+    "message": "位于屏幕外的字段"
+  },
+  "reason_aria_hidden": {
+    "message": "对用户隐藏的字段"
+  },
+  "reason_inert": {
+    "message": "页面的非活动部分"
+  },
+  "reason_detached": {
+    "message": "已从页面移除的字段"
+  },
+  "reason_disabled": {
+    "message": "已停用的字段"
+  },
+  "reason_readonly": {
+    "message": "只读字段"
+  },
+  "reason_unsupported": {
+    "message": "不支持的字段类型"
+  },
+  "reason_submit": {
+    "message": "按钮"
+  },
+  "kind_text": {
+    "message": "文本"
+  },
+  "kind_textarea": {
+    "message": "长文本"
+  },
+  "kind_select": {
+    "message": "列表"
+  },
+  "kind_checkbox": {
+    "message": "复选框"
+  },
+  "kind_radio": {
+    "message": "单选"
+  },
+  "kind_date": {
+    "message": "日期"
+  },
+  "recordedOn": {
+    "message": "录制于 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "搜索变体"
+  },
+  "noVariants": {
+    "message": "还没有变体。手动填写表单，然后点击“从页面新建变体”。"
+  },
+  "fillBtn": {
+    "message": "填写"
+  },
+  "newVariantFromPage": {
+    "message": "从页面新建变体"
+  },
+  "newVariantEmpty": {
+    "message": "空白变体"
+  },
+  "fieldsHeading": {
+    "message": "字段（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "从模板中移除字段"
+  },
+  "confirmDelete": {
+    "message": "删除此变体？"
+  },
+  "confirmDeleteTemplate": {
+    "message": "删除此模板及其所有变体？"
+  },
+  "deleteTemplate": {
+    "message": "删除模板"
+  },
+  "exportOne": {
+    "message": "导出"
+  },
+  "copySuffix": {
+    "message": "$P1$（副本）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "已创建副本：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "变体 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "编辑变体"
+  },
+  "newVariantTitle": {
+    "message": "新建变体"
+  },
+  "variantName": {
+    "message": "变体名称"
+  },
+  "leaveEmptyHint": {
+    "message": "留空的字段在填写时不会被更改。"
+  },
+  "savedVariant": {
+    "message": "已保存变体“$P1$”。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "预览"
+  },
+  "previewUnchanged": {
+    "message": "不会更改：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "填写 $P1$ 个字段",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "仍然填写"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto 只填写字段。表单由您自己检查并提交。"
+  },
+  "mismatchTitle": {
+    "message": "这不是录制模板的网站"
+  },
+  "mismatchTemplateSite": {
+    "message": "模板网站"
+  },
+  "mismatchThisPage": {
+    "message": "此页面"
+  },
+  "mismatchBody": {
+    "message": "如果这是您门户网站的仿冒副本，您填写的数据将落入他人之手。"
+  },
+  "lookalikePunycode": {
+    "message": "该地址使用了外观相似的国际字符。"
+  },
+  "lookalikeSimilar": {
+    "message": "该地址看起来像是对原网站的仿冒。"
+  },
+  "downgradeWarn": {
+    "message": "此页面不安全（使用 http 而非 https）。"
+  },
+  "mismatchAck": {
+    "message": "我了解风险，仍然填写此页面"
+  },
+  "st_ready": {
+    "message": "将填写"
+  },
+  "st_unchanged": {
+    "message": "已是此值"
+  },
+  "st_skipped": {
+    "message": "不在变体中"
+  },
+  "st_waiting": {
+    "message": "尚未出现，将等待"
+  },
+  "st_option_wait": {
+    "message": "选项尚未加载，将等待"
+  },
+  "st_blocked": {
+    "message": "已阻止：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "匹配不明确，已跳过"
+  },
+  "st_filled": {
+    "message": "已填写"
+  },
+  "st_not_found": {
+    "message": "未找到"
+  },
+  "st_no_option": {
+    "message": "未找到选项"
+  },
+  "st_failed": {
+    "message": "页面拒绝了该值"
+  },
+  "st_invalid": {
+    "message": "值无效"
+  },
+  "fillingProgress": {
+    "message": "正在填写… 如有需要会等待加载较慢的字段。"
+  },
+  "resultTitle": {
+    "message": "已填写"
+  },
+  "undoneTitle": {
+    "message": "已撤销"
+  },
+  "resultFilled": {
+    "message": "已填写"
+  },
+  "resultUnchanged": {
+    "message": "值已匹配"
+  },
+  "resultProblems": {
+    "message": "未填写"
+  },
+  "reviewNote": {
+    "message": "请检查表单并自行提交。"
+  },
+  "undo": {
+    "message": "撤销"
+  },
+  "undone": {
+    "message": "已恢复之前的值：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "导入模板"
+  },
+  "importSummary": {
+    "message": "文件中的模板：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "导入的模板只会在上方显示的网站上填写。ID 相同的模板将作为副本添加。"
+  },
+  "importConfirm": {
+    "message": "导入"
+  },
+  "importDone": {
+    "message": "已导入模板：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$（已导入）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "设置已保存。"
+  },
+  "waitLabel": {
+    "message": "等待加载较慢的字段和列表（秒）"
+  },
+  "waitHelp": {
+    "message": "填写时等待稍后出现的字段或列表选项的时长，例如选择设备类型后才加载的型号列表。始终未出现的字段会标记为“未找到”。"
+  },
+  "sitesHeading": {
+    "message": "已允许持续访问的网站"
+  },
+  "noSites": {
+    "message": "无。"
+  },
+  "removeAccess": {
+    "message": "移除访问权限"
+  },
+  "privacyHeading": {
+    "message": "隐私"
+  },
+  "privacyText": {
+    "message": "模板仅保存在此设备上的此浏览器中。FormDitto 没有服务器、账号或分析功能，也不会发出任何网络请求。它绝不会填写密码、支付卡或隐藏字段，也绝不会提交表单。"
+  },
+  "versionLabel": {
+    "message": "版本 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "语言"
+  },
+  "langAuto": {
+    "message": "跟随浏览器（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ 秒",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "显示值"
+  },
+  "generalHeading": {
+    "message": "常规"
+  },
+  "themeLabel": {
+    "message": "主题"
+  },
+  "syncLabel": {
+    "message": "记录时的页面与面板"
+  },
+  "syncBoth": {
+    "message": "双向"
+  },
+  "syncPage": {
+    "message": "页面 → 面板"
+  },
+  "syncHelp": {
+    "message": "双向：在面板中输入的值也会填入页面上的表单。页面 → 面板：面板会获取您在页面上输入的内容，而在面板中的修改只保留在模板中。"
+  },
+  "recHelpPage": {
+    "message": "点击要加入模板的表单字段。在页面上输入的内容会进入面板；在面板中的修改只保留在模板中。"
+  },
+  "themeAuto": {
+    "message": "跟随系统"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeToggle": {
+    "message": "切换主题"
+  },
+  "errNoAccess": {
+    "message": "FormDitto 无权访问此页面。请点击浏览器工具栏中的 FormDitto 图标，或允许访问该网站。"
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto 尚无权访问此标签页。请点击浏览器工具栏中的 FormDitto 图标。"
+  },
+  "errPageChanged": {
+    "message": "页面已更改。请重新打开预览。"
+  },
+  "errOtherSite": {
+    "message": "此模板属于 $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "没有可撤销的内容：页面已更改。"
+  },
+  "errAgent": {
+    "message": "页面上出现问题：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "请至少选择一个字段。"
+  },
+  "errTooManyFields": {
+    "message": "字段过多（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "变体过多（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "模板过多（上限 $P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "无法保存：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "文件大于 2 MB。"
+  },
+  "errNotJson": {
+    "message": "这不是 JSON 文件。"
+  },
+  "errSchema": {
+    "message": "文件不符合 FormDitto 格式：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

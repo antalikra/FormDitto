@@ -1,0 +1,29 @@
+FormDitto est un outil de remplissage automatique pour celles et ceux qui envoient chaque jour le même type de formulaire web : demandes d'intervention, commandes, tickets, inscriptions. Enregistrez le formulaire une fois comme modèle, gardez une variante pour chaque cas (« Pompe type B », « Pompe type C »…) et remplissez tout le formulaire en un clic.
+
+COMMENT ÇA MARCHE
+1. Ouvrez votre formulaire et cliquez sur l'icône FormDitto. Le panneau latéral s'ouvre à côté de la page.
+2. Cliquez sur « Nouveau modèle », cliquez sur les champs nécessaires (ou « Ajouter tous les champs visibles ») et saisissez leurs valeurs.
+3. Ces valeurs deviennent votre première variante. Ajoutez d'autres variantes, copiez-les et modifiez-les dans le panneau.
+4. La fois suivante : choisissez une variante, vérifiez l'aperçu, cliquez sur « Remplir ». Les champs modifiés sont mis en évidence et « Annuler » rétablit les valeurs précédentes.
+
+CE QUI EST REMPLI
+• Champs texte, e-mail, téléphone et nombre, zones de texte
+• Listes déroulantes, cases à cocher, boutons radio, dates
+• Formulaires React et Vue (les champs contrôlés reçoivent de vrais événements input et change)
+• Listes et champs chargés plus tard : FormDitto les attend, avec un délai maximal
+• iframes du même site et composants web (shadow DOM ouvert)
+
+CONFIDENTIEL ET PRUDENT
+• Les modèles restent dans votre navigateur, sur cet appareil. Ni compte, ni serveur, ni outil d'analyse, ni requête réseau.
+• L'accès est demandé pour un seul site à la fois, uniquement si vous l'autorisez.
+• Chaque modèle est lié au site sur lequel il a été enregistré. Sur tout autre site, par exemple une copie imitant votre portail, FormDitto affiche un avertissement clair avant de remplir quoi que ce soit.
+• N'enregistre et ne remplit jamais les mots de passe, les champs de carte bancaire ni les champs masqués.
+• N'envoie jamais le formulaire. Vous le vérifiez et cliquez vous-même sur « Envoyer ».
+
+IMPORT ET EXPORT
+Transférez vos modèles vers un autre ordinateur ou partagez-les avec vos collègues sous forme de fichier JSON. Les fichiers importés sont strictement contrôlés.
+
+GRATUIT
+Les modèles, les variantes, l'aperçu et l'annulation sont gratuits. Sans abonnement.
+
+Disponible en 14 langues. Fonctionne dans Google Chrome et Microsoft Edge 116 ou version ultérieure.

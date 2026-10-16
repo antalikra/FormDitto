@@ -1,0 +1,29 @@
+FormDitto is a form filler for people who submit the same kind of web form every day: service requests, orders, tickets, registrations. Save the form once as a template, keep a variant for every case ("Pump type B", "Pump type C"…), and fill the whole form in one click.
+
+HOW IT WORKS
+1. Open your form and click the FormDitto icon. The side panel opens next to the page.
+2. Click "New template", click the fields you need (or "Add all visible fields") and type their values.
+3. Those values become your first variant. Add more variants, copy and edit them in the panel.
+4. Next time: pick a variant, check the preview, click "Fill". Changed fields are highlighted, and "Undo" restores the previous values.
+
+WHAT IT FILLS
+• Text, e-mail, phone and number fields, text areas
+• Drop-down lists, checkboxes, radio buttons, dates
+• React and Vue forms (controlled inputs receive real input and change events)
+• Lists and fields that load later: FormDitto waits for them, with a timeout
+• Same-site iframes and web components (open shadow DOM)
+
+PRIVATE AND CAREFUL BY DESIGN
+• Templates stay in your browser on this device. No account, no server, no analytics, no network requests.
+• Access is requested for one site at a time, only when you allow it.
+• Each template is tied to the site where you recorded it. On any other site, for example a look-alike copy of your portal, FormDitto shows a clear warning before anything is filled.
+• Never records or fills passwords, payment card fields or hidden fields.
+• Never submits a form. You review it and click Submit yourself.
+
+IMPORT AND EXPORT
+Move templates to another computer or share them with colleagues as a JSON file. Imported files are checked strictly.
+
+FREE
+The autofill templates, variants, preview and undo are free. No subscription.
+
+Available in 14 languages. Works in Google Chrome and Microsoft Edge 116 or newer.

@@ -1,0 +1,29 @@
+O FormDitto preenche automaticamente formulários para quem envia todos os dias o mesmo tipo de formulário web: solicitações de serviço, pedidos, chamados, cadastros. Salve o formulário uma vez como modelo, mantenha uma variante para cada caso (“Bomba tipo B”, “Bomba tipo C”…) e preencha o formulário inteiro com um clique.
+
+COMO FUNCIONA
+1. Abra seu formulário e clique no ícone do FormDitto. O painel lateral abre ao lado da página.
+2. Clique em “Novo modelo”, clique nos campos de que precisa (ou em “Adicionar todos os campos visíveis”) e digite os valores.
+3. Esses valores serão sua primeira variante. Adicione mais variantes, copie e edite-as no painel.
+4. Na próxima vez: escolha uma variante, confira a pré-visualização e clique em “Preencher”. Os campos alterados ficam destacados e “Desfazer” restaura os valores anteriores.
+
+O QUE É PREENCHIDO
+• Campos de texto, e-mail, telefone e número, áreas de texto
+• Listas suspensas, caixas de seleção, botões de opção, datas
+• Formulários React e Vue (campos controlados recebem eventos input e change reais)
+• Listas e campos que carregam depois: o FormDitto espera por eles, com tempo limite
+• Iframes do mesmo site e web components (shadow DOM aberto)
+
+PRIVADO E CUIDADOSO
+• Os modelos ficam no seu navegador, neste dispositivo. Sem conta, sem servidor, sem análises, sem solicitações de rede.
+• O acesso é pedido para um site de cada vez e só quando você permite.
+• Cada modelo fica vinculado ao site em que foi gravado. Em qualquer outro site, como uma cópia que imita seu portal, o FormDitto mostra um aviso claro antes de preencher qualquer coisa.
+• Nunca grava nem preenche senhas, campos de cartão de pagamento ou campos ocultos.
+• Nunca envia o formulário. Você confere e clica em “Enviar”.
+
+IMPORTAR E EXPORTAR
+Leve seus modelos para outro computador ou compartilhe com colegas como arquivo JSON. Os arquivos importados são verificados com rigor.
+
+GRÁTIS
+Modelos, variantes, pré-visualização e desfazer são gratuitos. Sem assinatura.
+
+Disponível em 14 idiomas. Funciona no Google Chrome e no Microsoft Edge 116 ou mais recente.

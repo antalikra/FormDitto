@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: Form Filler & Autofill Templates"
+  },
+  "extDescription": {
+    "message": "Fill repetitive web forms in one click from saved templates. Local-only form filler: no account, no subscription."
+  },
+  "actionTitle": {
+    "message": "Open FormDitto"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "duplicate": {
+    "message": "Duplicate"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "rename": {
+    "message": "Rename"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "checked": {
+    "message": "Checked"
+  },
+  "unchecked": {
+    "message": "Unchecked"
+  },
+  "notSet": {
+    "message": "— not set —"
+  },
+  "nothingFound": {
+    "message": "Nothing found."
+  },
+  "unnamedField": {
+    "message": "Unnamed field"
+  },
+  "siteUnknownTitle": {
+    "message": "No access to this tab yet"
+  },
+  "siteUnknownBody": {
+    "message": "Click the FormDitto icon in the browser toolbar to work with this tab. To skip this click on your portal, then choose “Always allow on this site”."
+  },
+  "siteUnsupported": {
+    "message": "FormDitto can't work on this page."
+  },
+  "accessGranted": {
+    "message": "Always allowed on this site"
+  },
+  "accessTemporary": {
+    "message": "Allowed on this page until you leave it"
+  },
+  "alwaysAllow": {
+    "message": "Always allow on this site"
+  },
+  "accessNote": {
+    "message": "FormDitto asks for access to this one site only."
+  },
+  "newTemplate": {
+    "message": "New template"
+  },
+  "searchTemplates": {
+    "message": "Search templates and variants"
+  },
+  "templatesHere": {
+    "message": "Templates for this site"
+  },
+  "noTemplatesHere": {
+    "message": "No templates for this site yet. Click “New template” and pick the form fields."
+  },
+  "otherSites": {
+    "message": "Other sites ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "All templates ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Fields: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Variants: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Import"
+  },
+  "exportAll": {
+    "message": "Export all"
+  },
+  "localNote": {
+    "message": "Templates are stored only in this browser on this device."
+  },
+  "recTitle": {
+    "message": "Recording a template"
+  },
+  "recHelp": {
+    "message": "Click the form fields you want in the template. Enter their values on the page or right here: both stay in sync and become the first variant."
+  },
+  "recAddAll": {
+    "message": "Add all visible fields"
+  },
+  "recEmpty": {
+    "message": "No fields selected yet."
+  },
+  "recName": {
+    "message": "Template name"
+  },
+  "recNameDefault": {
+    "message": "Form on $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "First variant name"
+  },
+  "firstVariantName": {
+    "message": "Variant 1"
+  },
+  "recSave": {
+    "message": "Save template"
+  },
+  "recBanner": {
+    "message": "FormDitto · click fields to add them · selected: {n}"
+  },
+  "recHoverAdd": {
+    "message": "click to add"
+  },
+  "recHoverAdded": {
+    "message": "added · you can enter a value"
+  },
+  "recHoverBlocked": {
+    "message": "Not allowed"
+  },
+  "recBlocked": {
+    "message": "Not added: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "The page did not accept the value for “$P1$”. The template keeps the value from the panel.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "The page replaced the field “$P1$” with a new one. Click it on the page again to keep it in the template.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Buttons are not recorded. The form was not submitted."
+  },
+  "recCancelledNav": {
+    "message": "Recording stopped: the page changed."
+  },
+  "savedTemplate": {
+    "message": "Template “$P1$” saved.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Template “$P1$” saved. Now enter the values for the first variant.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "password field"
+  },
+  "reason_payment": {
+    "message": "payment card field"
+  },
+  "reason_otp": {
+    "message": "one-time code field"
+  },
+  "reason_hidden_type": {
+    "message": "hidden field"
+  },
+  "reason_not_rendered": {
+    "message": "hidden field"
+  },
+  "reason_too_small": {
+    "message": "invisible field (too small)"
+  },
+  "reason_invisible": {
+    "message": "invisible field"
+  },
+  "reason_transparent": {
+    "message": "transparent field"
+  },
+  "reason_clipped": {
+    "message": "clipped, hidden field"
+  },
+  "reason_offscreen": {
+    "message": "field placed off screen"
+  },
+  "reason_aria_hidden": {
+    "message": "field hidden from users"
+  },
+  "reason_inert": {
+    "message": "inactive part of the page"
+  },
+  "reason_detached": {
+    "message": "field removed from the page"
+  },
+  "reason_disabled": {
+    "message": "disabled field"
+  },
+  "reason_readonly": {
+    "message": "read-only field"
+  },
+  "reason_unsupported": {
+    "message": "unsupported field type"
+  },
+  "reason_submit": {
+    "message": "button"
+  },
+  "kind_text": {
+    "message": "text"
+  },
+  "kind_textarea": {
+    "message": "long text"
+  },
+  "kind_select": {
+    "message": "list"
+  },
+  "kind_checkbox": {
+    "message": "checkbox"
+  },
+  "kind_radio": {
+    "message": "choice"
+  },
+  "kind_date": {
+    "message": "date"
+  },
+  "recordedOn": {
+    "message": "Recorded on $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Search variants"
+  },
+  "noVariants": {
+    "message": "No variants yet. Fill the form by hand and click “New variant from page”."
+  },
+  "fillBtn": {
+    "message": "Fill"
+  },
+  "newVariantFromPage": {
+    "message": "New variant from page"
+  },
+  "newVariantEmpty": {
+    "message": "Empty variant"
+  },
+  "fieldsHeading": {
+    "message": "Fields ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Remove field from template"
+  },
+  "confirmDelete": {
+    "message": "Delete this variant?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Delete the template and all its variants?"
+  },
+  "deleteTemplate": {
+    "message": "Delete template"
+  },
+  "exportOne": {
+    "message": "Export"
+  },
+  "copySuffix": {
+    "message": "$P1$ (copy)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Copy created: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Variant $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Edit variant"
+  },
+  "newVariantTitle": {
+    "message": "New variant"
+  },
+  "variantName": {
+    "message": "Variant name"
+  },
+  "leaveEmptyHint": {
+    "message": "Fields left empty are not touched when filling."
+  },
+  "savedVariant": {
+    "message": "Variant “$P1$” saved.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Preview"
+  },
+  "previewUnchanged": {
+    "message": "Won't change: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Fill fields ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Fill anyway"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto only fills fields. You review and submit the form yourself."
+  },
+  "mismatchTitle": {
+    "message": "This is not the site where the template was recorded"
+  },
+  "mismatchTemplateSite": {
+    "message": "Template site"
+  },
+  "mismatchThisPage": {
+    "message": "This page"
+  },
+  "mismatchBody": {
+    "message": "If this is a copy of your portal, the data you fill in will go to someone else."
+  },
+  "lookalikePunycode": {
+    "message": "The address uses look-alike international characters."
+  },
+  "lookalikeSimilar": {
+    "message": "The address looks like an imitation of the original."
+  },
+  "downgradeWarn": {
+    "message": "This page is not secure (http instead of https)."
+  },
+  "mismatchAck": {
+    "message": "I understand the risk, fill this page anyway"
+  },
+  "st_ready": {
+    "message": "will fill"
+  },
+  "st_unchanged": {
+    "message": "already set"
+  },
+  "st_skipped": {
+    "message": "not in variant"
+  },
+  "st_waiting": {
+    "message": "not on page yet, will wait"
+  },
+  "st_option_wait": {
+    "message": "option not loaded yet, will wait"
+  },
+  "st_blocked": {
+    "message": "blocked: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "ambiguous match, skipped"
+  },
+  "st_filled": {
+    "message": "filled"
+  },
+  "st_not_found": {
+    "message": "not found"
+  },
+  "st_no_option": {
+    "message": "option not found"
+  },
+  "st_failed": {
+    "message": "page rejected the value"
+  },
+  "st_invalid": {
+    "message": "invalid value"
+  },
+  "fillingProgress": {
+    "message": "Filling… waiting for slow fields if needed."
+  },
+  "resultTitle": {
+    "message": "Filled"
+  },
+  "undoneTitle": {
+    "message": "Undone"
+  },
+  "resultFilled": {
+    "message": "filled"
+  },
+  "resultUnchanged": {
+    "message": "already correct"
+  },
+  "resultProblems": {
+    "message": "not filled"
+  },
+  "reviewNote": {
+    "message": "Check the form and submit it yourself."
+  },
+  "undo": {
+    "message": "Undo"
+  },
+  "undone": {
+    "message": "Restored previous values: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Import templates"
+  },
+  "importSummary": {
+    "message": "Templates in the file: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Imported templates fill forms only on the sites shown above. Templates with the same id are added as copies."
+  },
+  "importConfirm": {
+    "message": "Import"
+  },
+  "importDone": {
+    "message": "Imported templates: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (imported)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Settings saved."
+  },
+  "waitLabel": {
+    "message": "Wait for slow fields and lists, seconds"
+  },
+  "waitHelp": {
+    "message": "How long a fill waits for a field or a list option that appears later, for example a list of models that loads after you pick the equipment type. Fields that never appear are reported as not found."
+  },
+  "sitesHeading": {
+    "message": "Sites with permanent access"
+  },
+  "noSites": {
+    "message": "None."
+  },
+  "removeAccess": {
+    "message": "Remove access"
+  },
+  "privacyHeading": {
+    "message": "Privacy"
+  },
+  "privacyText": {
+    "message": "Templates are stored only in this browser on this device. FormDitto has no server, no account and no analytics, and it makes no network requests. It never fills passwords, payment cards or hidden fields and never submits forms."
+  },
+  "versionLabel": {
+    "message": "Version $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Language"
+  },
+  "langAuto": {
+    "message": "As in browser ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ s",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Show values"
+  },
+  "generalHeading": {
+    "message": "General"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "syncLabel": {
+    "message": "Page and panel while recording"
+  },
+  "syncBoth": {
+    "message": "Both ways"
+  },
+  "syncPage": {
+    "message": "Page → panel"
+  },
+  "syncHelp": {
+    "message": "Both ways: what you enter in the panel also goes into the form on the page. Page → panel: the panel picks up what you type on the page, while edits in the panel stay in the template only."
+  },
+  "recHelpPage": {
+    "message": "Click the form fields you want in the template. What you type on the page comes into the panel; edits in the panel stay in the template only."
+  },
+  "themeAuto": {
+    "message": "As in system"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeToggle": {
+    "message": "Switch theme"
+  },
+  "errNoAccess": {
+    "message": "FormDitto has no access to this page. Click the FormDitto icon in the browser toolbar or allow access for the site."
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto has no access to this tab yet. Click the FormDitto icon in the browser toolbar."
+  },
+  "errPageChanged": {
+    "message": "The page changed. Open the preview again."
+  },
+  "errOtherSite": {
+    "message": "This template belongs to $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Nothing to undo: the page has changed."
+  },
+  "errAgent": {
+    "message": "Something went wrong on the page: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Select at least one field."
+  },
+  "errTooManyFields": {
+    "message": "Too many fields (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Too many variants (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Too many templates (limit $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Could not save: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "The file is larger than 2 MB."
+  },
+  "errNotJson": {
+    "message": "This is not a JSON file."
+  },
+  "errSchema": {
+    "message": "The file doesn't match the FormDitto format: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

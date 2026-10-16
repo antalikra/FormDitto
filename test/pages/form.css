@@ -1,0 +1,48 @@
+:root { --ink: #1f2937; --muted: #6b7280; --line: #d6dbe3; --brand: #0f766e; --bg: #eef1f5; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 "Segoe UI", system-ui, sans-serif; }
+.topbar { display: flex; align-items: center; gap: 12px; padding: 12px 28px; background: #0b3b3a; color: #fff; }
+.topbar .logo { width: 26px; height: 26px; border-radius: 6px; background: #14b8a6; }
+.topbar b { font-size: 15px; letter-spacing: .01em; }
+.topbar nav { margin-left: auto; display: flex; gap: 18px; opacity: .85; font-size: 13px; }
+.wrap { max-width: 980px; margin: 22px auto; padding: 0 22px; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 22px 26px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+h1 { font-size: 20px; margin: 0 0 4px; }
+.lead { color: var(--muted); margin: 0 0 18px; }
+fieldset { border: 0; padding: 0; margin: 0 0 16px; }
+legend, .section { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--brand); margin-bottom: 10px; padding: 0; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 18px; }
+.grid .wide { grid-column: 1 / -1; }
+.f { display: flex; flex-direction: column; gap: 4px; }
+.f > label, .f > .lbl { font-size: 12px; font-weight: 600; color: #374151; }
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=search], input[type=password], select, textarea {
+  font: inherit; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); width: 100%;
+}
+textarea { min-height: 64px; resize: vertical; }
+.opts { display: flex; gap: 16px; flex-wrap: wrap; padding: 6px 0; }
+.opts label { display: inline-flex; align-items: center; gap: 6px; font-weight: 400; font-size: 14px; }
+.checks { display: flex; flex-direction: column; gap: 6px; }
+.checks label { display: inline-flex; align-items: center; gap: 8px; }
+.bar { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+button { font: inherit; font-weight: 600; padding: 8px 16px; border-radius: 6px; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+button.primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+.status { color: var(--muted); font-size: 12px; margin-top: 8px; }
+pre#state { background: #0f172a; color: #e2e8f0; padding: 10px; border-radius: 8px; font-size: 12px; white-space: pre-wrap; }
+
+/* trap.html helpers (no inline styles: the test pages run under a strict CSP) */
+.trap-display { display: none; }
+.trap-visibility { visibility: hidden; }
+.trap-opacity { opacity: 0; }
+.trap-tiny { width: 1px !important; height: 1px !important; padding: 0 !important; border: 0 !important; }
+.trap-offscreen { position: absolute; left: -9999px; top: 0; width: 200px; }
+.trap-clipbox { width: 0; height: 0; overflow: hidden; }
+.trap-cliprect { position: absolute; clip: rect(0 0 0 0); width: 200px; }
+.trap-scale { transform: scale(0); }
+.trap-fixed-top { position: fixed; top: -200px; left: 10px; width: 200px; }
+.trap-faded { opacity: .05; }
+.custom-check { position: relative; display: inline-flex; align-items: center; gap: 8px; }
+.custom-check input { position: absolute; left: 0; top: 0; width: 20px; height: 20px; margin: 0; opacity: 0; cursor: pointer; }
+.custom-check .box { width: 20px; height: 20px; border: 2px solid var(--brand); border-radius: 5px; display: inline-block; }
+.custom-check input:checked + .box { background: var(--brand); }
+.hidden-section { display: none; }
+.frame { width: 100%; height: 170px; border: 1px dashed var(--line); border-radius: 8px; background: #fff; }

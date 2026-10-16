@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: автозаполнение форм по шаблонам"
+  },
+  "extDescription": {
+    "message": "Заполняет повторяющиеся веб-формы в один клик по сохранённым шаблонам. Всё локально: без аккаунта и подписки."
+  },
+  "actionTitle": {
+    "message": "Открыть FormDitto"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "edit": {
+    "message": "Изменить"
+  },
+  "duplicate": {
+    "message": "Копия"
+  },
+  "remove": {
+    "message": "Убрать"
+  },
+  "rename": {
+    "message": "Переименовать"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "checked": {
+    "message": "Отмечено"
+  },
+  "unchecked": {
+    "message": "Не отмечено"
+  },
+  "notSet": {
+    "message": "— не задано —"
+  },
+  "nothingFound": {
+    "message": "Ничего не найдено."
+  },
+  "unnamedField": {
+    "message": "Поле без названия"
+  },
+  "siteUnknownTitle": {
+    "message": "Нет доступа к этой вкладке"
+  },
+  "siteUnknownBody": {
+    "message": "Нажмите значок FormDitto на панели браузера, чтобы работать с этой вкладкой. Чтобы не нажимать его каждый раз на своём портале, затем выберите «Всегда разрешать на этом сайте»."
+  },
+  "siteUnsupported": {
+    "message": "На этой странице FormDitto не работает."
+  },
+  "accessGranted": {
+    "message": "Разрешено на этом сайте всегда"
+  },
+  "accessTemporary": {
+    "message": "Разрешено на этой странице, пока вы её не покинете"
+  },
+  "alwaysAllow": {
+    "message": "Всегда разрешать на этом сайте"
+  },
+  "accessNote": {
+    "message": "FormDitto запрашивает доступ только к этому сайту."
+  },
+  "newTemplate": {
+    "message": "Новый шаблон"
+  },
+  "searchTemplates": {
+    "message": "Поиск шаблонов и вариантов"
+  },
+  "templatesHere": {
+    "message": "Шаблоны для этого сайта"
+  },
+  "noTemplatesHere": {
+    "message": "Для этого сайта шаблонов пока нет. Нажмите «Новый шаблон» и выберите поля формы."
+  },
+  "otherSites": {
+    "message": "Другие сайты ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Все шаблоны ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Полей: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Вариантов: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Импорт"
+  },
+  "exportAll": {
+    "message": "Экспорт всех"
+  },
+  "localNote": {
+    "message": "Шаблоны хранятся только в этом браузере на этом устройстве."
+  },
+  "recTitle": {
+    "message": "Запись шаблона"
+  },
+  "recHelp": {
+    "message": "Кликните по полям формы, которые нужны в шаблоне. Значения вводите на странице или прямо здесь — они синхронизируются и станут первым вариантом."
+  },
+  "recAddAll": {
+    "message": "Добавить все видимые поля"
+  },
+  "recEmpty": {
+    "message": "Поля ещё не выбраны."
+  },
+  "recName": {
+    "message": "Название шаблона"
+  },
+  "recNameDefault": {
+    "message": "Форма на $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "Название первого варианта"
+  },
+  "firstVariantName": {
+    "message": "Вариант 1"
+  },
+  "recSave": {
+    "message": "Сохранить шаблон"
+  },
+  "recBanner": {
+    "message": "FormDitto · кликайте по полям, чтобы добавить · выбрано: {n}"
+  },
+  "recHoverAdd": {
+    "message": "клик — добавить"
+  },
+  "recHoverAdded": {
+    "message": "добавлено · можно ввести значение"
+  },
+  "recHoverBlocked": {
+    "message": "Нельзя"
+  },
+  "recBlocked": {
+    "message": "Не добавлено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "Страница не приняла значение поля «$P1$». В шаблоне останется значение из панели.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "Страница заменила поле «$P1$» новым. Кликните по нему на странице ещё раз, чтобы оставить его в шаблоне.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Кнопки не записываются. Форма не отправлена."
+  },
+  "recCancelledNav": {
+    "message": "Запись остановлена: страница сменилась."
+  },
+  "savedTemplate": {
+    "message": "Шаблон «$P1$» сохранён.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Шаблон «$P1$» сохранён. Теперь введите значения первого варианта.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "поле пароля"
+  },
+  "reason_payment": {
+    "message": "поле банковской карты"
+  },
+  "reason_otp": {
+    "message": "поле одноразового кода"
+  },
+  "reason_hidden_type": {
+    "message": "скрытое поле"
+  },
+  "reason_not_rendered": {
+    "message": "скрытое поле"
+  },
+  "reason_too_small": {
+    "message": "невидимое поле (слишком маленькое)"
+  },
+  "reason_invisible": {
+    "message": "невидимое поле"
+  },
+  "reason_transparent": {
+    "message": "прозрачное поле"
+  },
+  "reason_clipped": {
+    "message": "обрезанное, скрытое поле"
+  },
+  "reason_offscreen": {
+    "message": "поле вынесено за экран"
+  },
+  "reason_aria_hidden": {
+    "message": "поле скрыто от пользователя"
+  },
+  "reason_inert": {
+    "message": "неактивная часть страницы"
+  },
+  "reason_detached": {
+    "message": "поле удалено со страницы"
+  },
+  "reason_disabled": {
+    "message": "отключённое поле"
+  },
+  "reason_readonly": {
+    "message": "поле только для чтения"
+  },
+  "reason_unsupported": {
+    "message": "неподдерживаемый тип поля"
+  },
+  "reason_submit": {
+    "message": "кнопка"
+  },
+  "kind_text": {
+    "message": "текст"
+  },
+  "kind_textarea": {
+    "message": "длинный текст"
+  },
+  "kind_select": {
+    "message": "список"
+  },
+  "kind_checkbox": {
+    "message": "флажок"
+  },
+  "kind_radio": {
+    "message": "выбор"
+  },
+  "kind_date": {
+    "message": "дата"
+  },
+  "recordedOn": {
+    "message": "Записан на $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Поиск вариантов"
+  },
+  "noVariants": {
+    "message": "Вариантов пока нет. Заполните форму вручную и нажмите «Вариант со страницы»."
+  },
+  "fillBtn": {
+    "message": "Заполнить"
+  },
+  "newVariantFromPage": {
+    "message": "Вариант со страницы"
+  },
+  "newVariantEmpty": {
+    "message": "Пустой вариант"
+  },
+  "fieldsHeading": {
+    "message": "Поля ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Убрать поле из шаблона"
+  },
+  "confirmDelete": {
+    "message": "Удалить этот вариант?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Удалить шаблон и все его варианты?"
+  },
+  "deleteTemplate": {
+    "message": "Удалить шаблон"
+  },
+  "exportOne": {
+    "message": "Экспорт"
+  },
+  "copySuffix": {
+    "message": "$P1$ (копия)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Создана копия: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Вариант $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Правка варианта"
+  },
+  "newVariantTitle": {
+    "message": "Новый вариант"
+  },
+  "variantName": {
+    "message": "Название варианта"
+  },
+  "leaveEmptyHint": {
+    "message": "Пустые поля при заполнении не трогаются."
+  },
+  "savedVariant": {
+    "message": "Вариант «$P1$» сохранён.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Предпросмотр"
+  },
+  "previewUnchanged": {
+    "message": "Не изменятся: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Заполнить поля: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Всё равно заполнить"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto только заполняет поля. Проверяете и отправляете форму вы сами."
+  },
+  "mismatchTitle": {
+    "message": "Это не тот сайт, на котором записан шаблон"
+  },
+  "mismatchTemplateSite": {
+    "message": "Сайт шаблона"
+  },
+  "mismatchThisPage": {
+    "message": "Эта страница"
+  },
+  "mismatchBody": {
+    "message": "Если это копия вашего портала, введённые данные попадут к посторонним."
+  },
+  "lookalikePunycode": {
+    "message": "В адресе есть похожие символы из других алфавитов."
+  },
+  "lookalikeSimilar": {
+    "message": "Адрес похож на подделку под оригинал."
+  },
+  "downgradeWarn": {
+    "message": "Страница не защищена (http вместо https)."
+  },
+  "mismatchAck": {
+    "message": "Я понимаю риск, всё равно заполнить эту страницу"
+  },
+  "st_ready": {
+    "message": "заполнится"
+  },
+  "st_unchanged": {
+    "message": "уже так"
+  },
+  "st_skipped": {
+    "message": "нет в варианте"
+  },
+  "st_waiting": {
+    "message": "пока нет, подождём"
+  },
+  "st_option_wait": {
+    "message": "пункта пока нет, подождём"
+  },
+  "st_blocked": {
+    "message": "запрещено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "неоднозначно, пропуск"
+  },
+  "st_filled": {
+    "message": "заполнено"
+  },
+  "st_not_found": {
+    "message": "не найдено"
+  },
+  "st_no_option": {
+    "message": "пункт не найден"
+  },
+  "st_failed": {
+    "message": "страница не приняла значение"
+  },
+  "st_invalid": {
+    "message": "неверное значение"
+  },
+  "fillingProgress": {
+    "message": "Заполняю… при необходимости жду медленные поля."
+  },
+  "resultTitle": {
+    "message": "Заполнено"
+  },
+  "undoneTitle": {
+    "message": "Отменено"
+  },
+  "resultFilled": {
+    "message": "заполнено"
+  },
+  "resultUnchanged": {
+    "message": "уже верно"
+  },
+  "resultProblems": {
+    "message": "не заполнено"
+  },
+  "reviewNote": {
+    "message": "Проверьте форму и отправьте её сами."
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "undone": {
+    "message": "Восстановлено прежних значений: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Импорт шаблонов"
+  },
+  "importSummary": {
+    "message": "Шаблонов в файле: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Импортированные шаблоны заполняют формы только на указанных сайтах. Шаблоны с тем же id добавляются копиями."
+  },
+  "importConfirm": {
+    "message": "Импортировать"
+  },
+  "importDone": {
+    "message": "Импортировано шаблонов: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (импорт)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Настройки сохранены."
+  },
+  "waitLabel": {
+    "message": "Ждать медленные поля и списки, секунд"
+  },
+  "waitHelp": {
+    "message": "Сколько при заполнении ждать поле или пункт списка, которые появляются не сразу, например список моделей, который подгружается после выбора типа оборудования. Поля, которые так и не появились, будут отмечены как «не найдено»."
+  },
+  "sitesHeading": {
+    "message": "Сайты с постоянным доступом"
+  },
+  "noSites": {
+    "message": "Нет."
+  },
+  "removeAccess": {
+    "message": "Убрать доступ"
+  },
+  "privacyHeading": {
+    "message": "Конфиденциальность"
+  },
+  "privacyText": {
+    "message": "Шаблоны хранятся только в этом браузере на этом устройстве. У FormDitto нет сервера, аккаунта и аналитики, он не делает сетевых запросов. Он никогда не заполняет пароли, банковские карты и скрытые поля и не отправляет формы."
+  },
+  "versionLabel": {
+    "message": "Версия $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Язык"
+  },
+  "langAuto": {
+    "message": "Как в браузере ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ с",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Показать значения"
+  },
+  "generalHeading": {
+    "message": "Общие"
+  },
+  "themeLabel": {
+    "message": "Тема"
+  },
+  "syncLabel": {
+    "message": "Страница и панель при записи"
+  },
+  "syncBoth": {
+    "message": "В обе стороны"
+  },
+  "syncPage": {
+    "message": "Страница → панель"
+  },
+  "syncHelp": {
+    "message": "В обе стороны: введённое в панели попадает и в форму на странице. Страница → панель: панель подхватывает то, что вы вводите на странице, а правки в панели остаются только в шаблоне."
+  },
+  "recHelpPage": {
+    "message": "Кликните по полям формы, которые нужны в шаблоне. Введённое на странице попадает в панель, правки в панели остаются только в шаблоне."
+  },
+  "themeAuto": {
+    "message": "Как в системе"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeToggle": {
+    "message": "Сменить тему"
+  },
+  "errNoAccess": {
+    "message": "У FormDitto нет доступа к этой странице. Нажмите значок FormDitto на панели браузера или разрешите доступ к сайту."
+  },
+  "errNoTabAccess": {
+    "message": "У FormDitto пока нет доступа к этой вкладке. Нажмите значок FormDitto на панели браузера."
+  },
+  "errPageChanged": {
+    "message": "Страница изменилась. Откройте предпросмотр заново."
+  },
+  "errOtherSite": {
+    "message": "Этот шаблон относится к $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Отменять нечего: страница изменилась."
+  },
+  "errAgent": {
+    "message": "Ошибка на странице: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Выберите хотя бы одно поле."
+  },
+  "errTooManyFields": {
+    "message": "Слишком много полей (лимит $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Слишком много вариантов (лимит $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Слишком много шаблонов (лимит $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Не удалось сохранить: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "Файл больше 2 МБ."
+  },
+  "errNotJson": {
+    "message": "Это не JSON-файл."
+  },
+  "errSchema": {
+    "message": "Файл не соответствует формату FormDitto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

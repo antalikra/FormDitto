@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Customer onboarding · Northwind CRM</title>
+<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="realworld.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="sticky-head">Northwind CRM · Customer onboarding</div>
+<div class="wrap">
+<form class="card" id="onboarding" action="/submitted" method="post">
+  <h1>New customer</h1>
+  <p class="lead">Patterns real sites use: masks, transforms, re-rendered sections, a modal, a custom list, steps.</p>
+
+  <fieldset>
+    <legend>Contact</legend>
+    <div class="grid">
+      <div class="f"><label for="phone">Mobile phone</label><input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__"></div>
+      <div class="f"><label for="plate">Vehicle plate</label><input type="text" id="plate" name="plate" maxlength="9"></div>
+      <div class="f"><label for="inn">Tax number (digits only)</label><input type="text" id="inn" name="inn" inputmode="numeric"></div>
+      <div class="f"><label for="city">City</label><input type="text" id="city" name="city" list="cities"><datalist id="cities"><option value="Berlin"><option value="Bern"><option value="Bergen"></datalist></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Customer type</legend>
+    <div class="opts" role="radiogroup" aria-label="Customer type">
+      <label><input type="radio" name="ctype" value="person" checked> Person</label>
+      <label><input type="radio" name="ctype" value="company"> Company</label>
+    </div>
+    <!-- Re-rendered on every change of the type, like a React component with a key: new elements each time. -->
+    <div class="grid" id="typeSection"></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Account manager</legend>
+    <div class="grid">
+      <div class="f"><span class="lbl" id="mgrLbl">Manager</span>
+        <!-- select2/choices.js pattern: the real select is visually hidden behind a custom list. -->
+        <div class="fake-select" id="mgrWrap">
+          <select id="manager" name="manager" aria-labelledby="mgrLbl" tabindex="-1"><option value="">Choose…</option><option value="ann">Ann Lee</option><option value="bob">Bob Stone</option></select>
+          <div class="shown" id="mgrShown" tabindex="0">Choose…</div>
+        </div></div>
+      <div class="f"><label for="notesRich" id="notesLbl">Notes</label><div class="rich" id="notesRich" contenteditable="true" aria-labelledby="notesLbl"></div></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Steps</legend>
+    <!-- SPA wizard: "Next" switches the step and the URL (history.pushState) without a page load. -->
+    <div class="step" id="step1"><div class="grid"><div class="f"><label for="ref">Referral code</label><input type="text" id="ref" name="ref"></div></div>
+      <button type="button" id="next">Next</button></div>
+    <div class="step" id="step2" hidden><div class="grid"><div class="f"><label for="budget">Budget</label><input type="number" id="budget" name="budget"></div></div>
+      <button type="button" id="prev">Back</button></div>
+  </fieldset>
+
+  <p><button type="button" id="openDialog">Add billing contact…</button></p>
+  <div class="actions"><button type="submit">Create customer</button> <span id="submits"></span></div>
+</form>
+</div>
+
+<dialog id="billing">
+  <form method="dialog" class="dlg">
+    <h2>Billing contact</h2>
+    <div class="f"><label for="billName">Name</label><input type="text" id="billName" name="billName"></div>
+    <div class="f"><label for="billEmail">Email</label><input type="email" id="billEmail" name="billEmail"></div>
+    <p><button value="close" id="closeDialog">Close</button></p>
+  </form>
+</dialog>
+<script src="realworld.js"></script>
+</body>
+</html>

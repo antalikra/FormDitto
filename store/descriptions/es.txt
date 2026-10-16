@@ -1,0 +1,29 @@
+FormDitto es un rellenador de formularios para quienes envían cada día el mismo tipo de formulario web: solicitudes de servicio, pedidos, incidencias, registros. Guarda el formulario una vez como plantilla, crea una variante para cada caso («Bomba tipo B», «Bomba tipo C»…) y rellena todo el formulario en un clic.
+
+CÓMO FUNCIONA
+1. Abre tu formulario y haz clic en el icono de FormDitto. El panel lateral se abre junto a la página.
+2. Haz clic en «Nueva plantilla», haz clic en los campos que necesites (o en «Añadir todos los campos visibles») y escribe sus valores.
+3. Esos valores serán tu primera variante. Añade más variantes, cópialas y edítalas en el panel.
+4. La próxima vez: elige una variante, revisa la vista previa y haz clic en «Rellenar». Los campos cambiados se resaltan y «Deshacer» restaura los valores anteriores.
+
+QUÉ RELLENA
+• Campos de texto, correo, teléfono y número, áreas de texto
+• Listas desplegables, casillas, botones de opción, fechas
+• Formularios de React y Vue (los campos controlados reciben eventos input y change reales)
+• Listas y campos que cargan más tarde: FormDitto los espera, con un tiempo límite
+• Iframes del mismo sitio y componentes web (shadow DOM abierto)
+
+PRIVADO Y CUIDADOSO
+• Las plantillas se quedan en tu navegador, en este dispositivo. Sin cuenta, sin servidor, sin analítica, sin solicitudes de red.
+• El acceso se pide para un sitio cada vez y solo si lo permites.
+• Cada plantilla está ligada al sitio donde la grabaste. En cualquier otro sitio, por ejemplo una copia que imita tu portal, FormDitto muestra una advertencia clara antes de rellenar nada.
+• Nunca graba ni rellena contraseñas, campos de tarjeta de pago ni campos ocultos.
+• Nunca envía el formulario. Tú lo revisas y haces clic en «Enviar».
+
+IMPORTAR Y EXPORTAR
+Lleva tus plantillas a otro ordenador o compártelas con tus compañeros como archivo JSON. Los archivos importados se comprueban estrictamente.
+
+GRATIS
+Las plantillas, variantes, vista previa y deshacer son gratis. Sin suscripción.
+
+Disponible en 14 idiomas. Funciona en Google Chrome y Microsoft Edge 116 o posterior.

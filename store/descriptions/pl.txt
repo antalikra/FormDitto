@@ -1,0 +1,29 @@
+FormDitto to narzędzie do automatycznego wypełniania formularzy dla osób, które codziennie wysyłają ten sam rodzaj formularza internetowego: zgłoszenia serwisowe, zamówienia, tickety, rejestracje. Zapisz formularz raz jako szablon, utwórz warianty na każdą okazję („Pompa typ B”, „Pompa typ C”…), i wypełniaj cały formularz jednym kliknięciem.
+
+JAK TO DZIAŁA
+1. Otwórz formularz i kliknij ikonę FormDitto. Obok strony otworzy się panel boczny.
+2. Kliknij „Nowy szablon”, kliknij potrzebne pola (lub „Dodaj wszystkie widoczne pola”) i wpisz ich wartości.
+3. Te wartości staną się pierwszym wariantem. Dodawaj kolejne warianty, kopiuj je i edytuj w panelu.
+4. Następnym razem: wybierz wariant, sprawdź podgląd i kliknij „Wypełnij”. Zmienione pola są podświetlone, a „Cofnij” przywraca poprzednie wartości.
+
+CO WYPEŁNIA
+• Pola tekstowe, e-mail, telefon i liczby, pola wielowierszowe
+• Listy rozwijane, pola wyboru, przyciski opcji, daty
+• Formularze React i Vue (kontrolowane pola otrzymują prawdziwe zdarzenia input i change)
+• Listy i pola ładowane później: FormDitto na nie czeka, z limitem czasu
+• Ramki iframe z tej samej strony i komponenty webowe (otwarty shadow DOM)
+
+PRYWATNIE I OSTROŻNIE
+• Szablony zostają w Twojej przeglądarce na tym urządzeniu. Bez konta, serwera, analityki i żądań sieciowych.
+• FormDitto prosi o dostęp tylko do jednej strony naraz i tylko za Twoją zgodą.
+• Każdy szablon jest powiązany ze stroną, na której go nagrano. Na każdej innej stronie, np. kopii podszywającej się pod Twój portal, FormDitto przed wypełnieniem wyświetla wyraźne ostrzeżenie.
+• Nigdy nie nagrywa ani nie wypełnia haseł, pól kart płatniczych ani ukrytych pól.
+• Nigdy nie wysyła formularza. Sprawdzasz go i klikasz „Wyślij” samodzielnie.
+
+IMPORT I EKSPORT
+Przenoś szablony na inny komputer lub udostępniaj je współpracownikom jako plik JSON. Importowane pliki są dokładnie sprawdzane.
+
+ZA DARMO
+Szablony, warianty, podgląd i cofanie są bezpłatne. Bez abonamentu.
+
+Dostępne w 14 językach. Działa w Google Chrome i Microsoft Edge w wersji 116 lub nowszej.

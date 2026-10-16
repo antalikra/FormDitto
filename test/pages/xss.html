@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hostile labels</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="xssForm">
+  <h1>Labels that look like HTML</h1>
+  <div class="grid">
+    <div class="f"><label for="x1">&lt;img src=x onerror="document.title='pwned'"&gt; Name</label><input type="text" id="x1" name="x1" value="&quot;&gt;&lt;script&gt;document.title='pwned'&lt;/script&gt;"></div>
+    <div class="f"><label for="x2">&lt;b&gt;Bold&lt;/b&gt; choice</label>
+      <select id="x2" name="x2"><option value="">-</option><option value="a" selected>&lt;svg onload=alert(1)&gt;</option><option value="b">Plain</option></select></div>
+  </div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+</body>
+</html>

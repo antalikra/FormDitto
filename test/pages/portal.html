@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Service request · Stackwell Plant Services</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<header class="topbar"><span class="logo"></span><b>Stackwell Plant Services</b><nav><span>Requests</span><span>Equipment</span><span>Reports</span></nav></header>
+<div class="wrap">
+<form class="card" id="request" action="/submitted" method="post">
+  <h1>New service request</h1>
+  <p class="lead">Order equipment service or replacement parts for your site.</p>
+  <fieldset>
+    <legend>Requester</legend>
+    <div class="grid">
+      <div class="f"><label for="requester">Full name</label><input type="text" id="requester" name="requester" autocomplete="name"></div>
+      <div class="f"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email"></div>
+      <div class="f"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+      <div class="f"><label for="department">Department</label>
+        <select id="department" name="department"><option value="">Select…</option><option value="ops">Operations</option><option value="mnt">Maintenance</option><option value="log">Logistics</option><option value="qa">Quality</option></select></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Equipment</legend>
+    <div class="grid">
+      <div class="f"><label for="site">Site</label>
+        <select id="site" name="site"><option value="">Select…</option><option value="p1">Plant 1 — North</option><option value="p2">Plant 2 — South</option><option value="wa">Warehouse A</option></select></div>
+      <div class="f"><label for="equipment">Equipment type</label>
+        <select id="equipment" name="equipment"><option value="">Select…</option><option value="cpump">Centrifugal pump</option><option value="dpump">Diaphragm pump</option><option value="comp">Compressor</option><option value="conv">Conveyor</option></select></div>
+      <div class="f"><label for="model">Model</label><input type="text" id="model" name="model"></div>
+      <div class="f"><label for="qty">Quantity</label><input type="number" id="qty" name="qty" min="1"></div>
+      <div class="f wide"><span class="lbl" id="pumpLbl">Pump type</span>
+        <div class="opts" role="radiogroup" aria-labelledby="pumpLbl">
+          <label><input type="radio" name="pump_type" value="A"> Type A</label>
+          <label><input type="radio" name="pump_type" value="B"> Type B</label>
+          <label><input type="radio" name="pump_type" value="C"> Type C</label>
+        </div></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Delivery</legend>
+    <div class="grid">
+      <div class="f"><span class="lbl" id="prioLbl">Priority</span>
+        <div class="opts" role="radiogroup" aria-labelledby="prioLbl">
+          <label><input type="radio" name="priority" value="low"> Low</label>
+          <label><input type="radio" name="priority" value="normal"> Normal</label>
+          <label><input type="radio" name="priority" value="high"> High</label>
+        </div></div>
+      <div class="f"><label for="due">Required by</label><input type="date" id="due" name="due"></div>
+      <div class="f"><label for="costcenter">Cost center</label><input type="text" id="costcenter" name="costcenter" placeholder="CC-0000"></div>
+      <div class="f"><label for="contact">On-site contact</label><input type="text" id="contact" name="contact"></div>
+      <div class="f wide"><label for="address">Delivery address</label><textarea id="address" name="address"></textarea></div>
+      <div class="f wide"><label for="description">Problem description</label><textarea id="description" name="description"></textarea></div>
+      <div class="f wide checks">
+        <label><input type="checkbox" id="onsite" name="onsite"> Needs on-site visit</label>
+        <label><input type="checkbox" id="spares" name="spares"> Include spare parts kit</label>
+        <label><input type="checkbox" id="notify" name="notify" checked> Notify me by email</label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="bar"><button type="button" id="draft">Save draft</button><button type="submit" class="primary" id="submitBtn">Submit request</button></div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+</body>
+</html>

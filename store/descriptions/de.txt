@@ -1,0 +1,29 @@
+FormDitto ist ein Formular-Ausfüller für alle, die jeden Tag dieselbe Art von Webformular absenden: Serviceanfragen, Bestellungen, Tickets, Anmeldungen. Speichern Sie das Formular einmal als Vorlage, legen Sie für jeden Fall eine Variante an („Pumpentyp B“, „Pumpentyp C“ …) und füllen Sie das ganze Formular mit einem Klick aus.
+
+SO FUNKTIONIERT ES
+1. Öffnen Sie Ihr Formular und klicken Sie auf das FormDitto-Symbol. Neben der Seite öffnet sich die Seitenleiste.
+2. Klicken Sie auf „Neue Vorlage“, klicken Sie die benötigten Felder an (oder „Alle sichtbaren Felder hinzufügen“) und geben Sie die Werte ein.
+3. Diese Werte werden zu Ihrer ersten Variante. Weitere Varianten legen Sie in der Seitenleiste an, kopieren und bearbeiten sie dort.
+4. Beim nächsten Mal: Variante wählen, Vorschau prüfen, auf „Ausfüllen“ klicken. Geänderte Felder werden hervorgehoben, „Rückgängig“ stellt die vorherigen Werte wieder her.
+
+WAS AUSGEFÜLLT WIRD
+• Text-, E-Mail-, Telefon- und Zahlenfelder, mehrzeilige Textfelder
+• Auswahllisten, Kontrollkästchen, Optionsfelder, Datumsfelder
+• React- und Vue-Formulare (kontrollierte Eingabefelder erhalten echte input- und change-Ereignisse)
+• Listen und Felder, die später laden: FormDitto wartet auf sie, mit Zeitlimit
+• iframes derselben Website und Web Components (offenes Shadow DOM)
+
+PRIVAT UND SORGFÄLTIG
+• Vorlagen bleiben in Ihrem Browser auf diesem Gerät. Kein Konto, kein Server, keine Analyse, keine Netzwerkanfragen.
+• Zugriff wird jeweils für eine Website angefragt und nur, wenn Sie ihn erlauben.
+• Jede Vorlage ist an die Website gebunden, auf der sie aufgezeichnet wurde. Auf jeder anderen Website, etwa einer täuschend ähnlichen Kopie Ihres Portals, zeigt FormDitto vor dem Ausfüllen eine deutliche Warnung.
+• Passwörter, Zahlungskartenfelder und versteckte Felder werden nie aufgezeichnet oder ausgefüllt.
+• Das Formular wird nie abgesendet. Sie prüfen es und klicken selbst auf „Senden“.
+
+IMPORT UND EXPORT
+Übertragen Sie Vorlagen als JSON-Datei auf einen anderen Computer oder teilen Sie sie mit Kollegen. Importierte Dateien werden streng geprüft.
+
+KOSTENLOS
+Vorlagen, Varianten, Vorschau und Rückgängig sind kostenlos. Kein Abo.
+
+In 14 Sprachen verfügbar. Funktioniert in Google Chrome und Microsoft Edge ab Version 116.

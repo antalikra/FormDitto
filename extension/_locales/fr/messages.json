@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto : remplissage automatique de formulaires par modèles"
+  },
+  "extDescription": {
+    "message": "Remplissez en un clic les formulaires web répétitifs à partir de modèles enregistrés. 100 % local : sans compte ni abonnement."
+  },
+  "actionTitle": {
+    "message": "Ouvrir FormDitto"
+  },
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "back": {
+    "message": "Retour"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "delete": {
+    "message": "Supprimer"
+  },
+  "edit": {
+    "message": "Modifier"
+  },
+  "duplicate": {
+    "message": "Dupliquer"
+  },
+  "remove": {
+    "message": "Retirer"
+  },
+  "rename": {
+    "message": "Renommer"
+  },
+  "done": {
+    "message": "Terminé"
+  },
+  "checked": {
+    "message": "Coché"
+  },
+  "unchecked": {
+    "message": "Non coché"
+  },
+  "notSet": {
+    "message": "— non défini —"
+  },
+  "nothingFound": {
+    "message": "Aucun résultat."
+  },
+  "unnamedField": {
+    "message": "Champ sans nom"
+  },
+  "siteUnknownTitle": {
+    "message": "Pas encore d'accès à cet onglet"
+  },
+  "siteUnknownBody": {
+    "message": "Cliquez sur l'icône FormDitto dans la barre d'outils du navigateur pour travailler avec cet onglet. Pour éviter ce clic sur votre portail, choisissez ensuite « Toujours autoriser sur ce site »."
+  },
+  "siteUnsupported": {
+    "message": "FormDitto ne peut pas fonctionner sur cette page."
+  },
+  "accessGranted": {
+    "message": "Toujours autorisé sur ce site"
+  },
+  "accessTemporary": {
+    "message": "Autorisé sur cette page jusqu'à ce que vous la quittiez"
+  },
+  "alwaysAllow": {
+    "message": "Toujours autoriser sur ce site"
+  },
+  "accessNote": {
+    "message": "FormDitto demande l'accès à ce seul site."
+  },
+  "newTemplate": {
+    "message": "Nouveau modèle"
+  },
+  "searchTemplates": {
+    "message": "Rechercher des modèles et des variantes"
+  },
+  "templatesHere": {
+    "message": "Modèles pour ce site"
+  },
+  "noTemplatesHere": {
+    "message": "Aucun modèle pour ce site. Cliquez sur « Nouveau modèle » et choisissez les champs du formulaire."
+  },
+  "otherSites": {
+    "message": "Autres sites ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Tous les modèles ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Champs : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Variantes : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Importer"
+  },
+  "exportAll": {
+    "message": "Tout exporter"
+  },
+  "localNote": {
+    "message": "Les modèles sont stockés uniquement dans ce navigateur, sur cet appareil."
+  },
+  "recTitle": {
+    "message": "Enregistrement d'un modèle"
+  },
+  "recHelp": {
+    "message": "Cliquez sur les champs du formulaire à inclure dans le modèle. Saisissez leurs valeurs sur la page ou directement ici : les deux restent synchronisées et deviennent la première variante."
+  },
+  "recAddAll": {
+    "message": "Ajouter tous les champs visibles"
+  },
+  "recEmpty": {
+    "message": "Aucun champ sélectionné."
+  },
+  "recName": {
+    "message": "Nom du modèle"
+  },
+  "recNameDefault": {
+    "message": "Formulaire sur $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "Nom de la première variante"
+  },
+  "firstVariantName": {
+    "message": "Variante 1"
+  },
+  "recSave": {
+    "message": "Enregistrer le modèle"
+  },
+  "recBanner": {
+    "message": "FormDitto · cliquez sur les champs pour les ajouter · sélectionnés : {n}"
+  },
+  "recHoverAdd": {
+    "message": "cliquer pour ajouter"
+  },
+  "recHoverAdded": {
+    "message": "ajouté · vous pouvez saisir une valeur"
+  },
+  "recHoverBlocked": {
+    "message": "Non autorisé"
+  },
+  "recBlocked": {
+    "message": "Non ajouté : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "La page n'a pas accepté la valeur du champ « $P1$ ». Le modèle garde la valeur saisie dans le panneau.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "La page a remplacé le champ « $P1$ » par un nouveau. Cliquez-le à nouveau sur la page pour le garder dans le modèle.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Les boutons ne sont pas enregistrés. Le formulaire n'a pas été envoyé."
+  },
+  "recCancelledNav": {
+    "message": "Enregistrement arrêté : la page a changé."
+  },
+  "savedTemplate": {
+    "message": "Modèle « $P1$ » enregistré.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Modèle « $P1$ » enregistré. Saisissez maintenant les valeurs de la première variante.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "champ de mot de passe"
+  },
+  "reason_payment": {
+    "message": "champ de carte bancaire"
+  },
+  "reason_otp": {
+    "message": "champ de code à usage unique"
+  },
+  "reason_hidden_type": {
+    "message": "champ masqué"
+  },
+  "reason_not_rendered": {
+    "message": "champ masqué"
+  },
+  "reason_too_small": {
+    "message": "champ invisible (trop petit)"
+  },
+  "reason_invisible": {
+    "message": "champ invisible"
+  },
+  "reason_transparent": {
+    "message": "champ transparent"
+  },
+  "reason_clipped": {
+    "message": "champ rogné et masqué"
+  },
+  "reason_offscreen": {
+    "message": "champ placé hors de l'écran"
+  },
+  "reason_aria_hidden": {
+    "message": "champ masqué aux utilisateurs"
+  },
+  "reason_inert": {
+    "message": "partie inactive de la page"
+  },
+  "reason_detached": {
+    "message": "champ retiré de la page"
+  },
+  "reason_disabled": {
+    "message": "champ désactivé"
+  },
+  "reason_readonly": {
+    "message": "champ en lecture seule"
+  },
+  "reason_unsupported": {
+    "message": "type de champ non pris en charge"
+  },
+  "reason_submit": {
+    "message": "bouton"
+  },
+  "kind_text": {
+    "message": "texte"
+  },
+  "kind_textarea": {
+    "message": "texte long"
+  },
+  "kind_select": {
+    "message": "liste"
+  },
+  "kind_checkbox": {
+    "message": "case à cocher"
+  },
+  "kind_radio": {
+    "message": "choix"
+  },
+  "kind_date": {
+    "message": "date"
+  },
+  "recordedOn": {
+    "message": "Enregistré sur $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Rechercher des variantes"
+  },
+  "noVariants": {
+    "message": "Aucune variante. Remplissez le formulaire à la main et cliquez sur « Nouvelle variante depuis la page »."
+  },
+  "fillBtn": {
+    "message": "Remplir"
+  },
+  "newVariantFromPage": {
+    "message": "Nouvelle variante depuis la page"
+  },
+  "newVariantEmpty": {
+    "message": "Variante vide"
+  },
+  "fieldsHeading": {
+    "message": "Champs ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Retirer le champ du modèle"
+  },
+  "confirmDelete": {
+    "message": "Supprimer cette variante ?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Supprimer le modèle et toutes ses variantes ?"
+  },
+  "deleteTemplate": {
+    "message": "Supprimer le modèle"
+  },
+  "exportOne": {
+    "message": "Exporter"
+  },
+  "copySuffix": {
+    "message": "$P1$ (copie)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Copie créée : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Variante $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Modifier la variante"
+  },
+  "newVariantTitle": {
+    "message": "Nouvelle variante"
+  },
+  "variantName": {
+    "message": "Nom de la variante"
+  },
+  "leaveEmptyHint": {
+    "message": "Les champs laissés vides ne sont pas modifiés lors du remplissage."
+  },
+  "savedVariant": {
+    "message": "Variante « $P1$ » enregistrée.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Aperçu"
+  },
+  "previewUnchanged": {
+    "message": "Inchangés : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Remplir les champs ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Remplir quand même"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto ne fait que remplir les champs. Vous vérifiez et envoyez le formulaire vous-même."
+  },
+  "mismatchTitle": {
+    "message": "Ce n'est pas le site sur lequel le modèle a été enregistré"
+  },
+  "mismatchTemplateSite": {
+    "message": "Site du modèle"
+  },
+  "mismatchThisPage": {
+    "message": "Cette page"
+  },
+  "mismatchBody": {
+    "message": "S'il s'agit d'une copie de votre portail, les données saisies iront à quelqu'un d'autre."
+  },
+  "lookalikePunycode": {
+    "message": "L'adresse contient des caractères internationaux trompeurs."
+  },
+  "lookalikeSimilar": {
+    "message": "L'adresse ressemble à une imitation de l'original."
+  },
+  "downgradeWarn": {
+    "message": "Cette page n'est pas sécurisée (http au lieu de https)."
+  },
+  "mismatchAck": {
+    "message": "Je comprends le risque, remplir quand même cette page"
+  },
+  "st_ready": {
+    "message": "sera rempli"
+  },
+  "st_unchanged": {
+    "message": "déjà défini"
+  },
+  "st_skipped": {
+    "message": "absent de la variante"
+  },
+  "st_waiting": {
+    "message": "pas encore sur la page, attente"
+  },
+  "st_option_wait": {
+    "message": "option pas encore chargée, attente"
+  },
+  "st_blocked": {
+    "message": "bloqué : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "correspondance ambiguë, ignoré"
+  },
+  "st_filled": {
+    "message": "rempli"
+  },
+  "st_not_found": {
+    "message": "introuvable"
+  },
+  "st_no_option": {
+    "message": "option introuvable"
+  },
+  "st_failed": {
+    "message": "la page a refusé la valeur"
+  },
+  "st_invalid": {
+    "message": "valeur non valide"
+  },
+  "fillingProgress": {
+    "message": "Remplissage… attente des champs lents si nécessaire."
+  },
+  "resultTitle": {
+    "message": "Rempli"
+  },
+  "undoneTitle": {
+    "message": "Annulé"
+  },
+  "resultFilled": {
+    "message": "remplis"
+  },
+  "resultUnchanged": {
+    "message": "déjà corrects"
+  },
+  "resultProblems": {
+    "message": "non remplis"
+  },
+  "reviewNote": {
+    "message": "Vérifiez le formulaire et envoyez-le vous-même."
+  },
+  "undo": {
+    "message": "Annuler"
+  },
+  "undone": {
+    "message": "Valeurs précédentes restaurées : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Importer des modèles"
+  },
+  "importSummary": {
+    "message": "Modèles dans le fichier : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Les modèles importés remplissent les champs uniquement sur les sites indiqués ci-dessus. Les modèles ayant le même identifiant sont ajoutés comme copies."
+  },
+  "importConfirm": {
+    "message": "Importer"
+  },
+  "importDone": {
+    "message": "Modèles importés : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (importé)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Paramètres enregistrés."
+  },
+  "waitLabel": {
+    "message": "Attente des champs et listes lents, en secondes"
+  },
+  "waitHelp": {
+    "message": "Durée pendant laquelle le remplissage attend un champ ou une option de liste qui apparaît plus tard, par exemple une liste de modèles chargée après le choix du type d'équipement. Les champs qui n'apparaissent jamais sont signalés comme introuvables."
+  },
+  "sitesHeading": {
+    "message": "Sites avec accès permanent"
+  },
+  "noSites": {
+    "message": "Aucun."
+  },
+  "removeAccess": {
+    "message": "Retirer l'accès"
+  },
+  "privacyHeading": {
+    "message": "Confidentialité"
+  },
+  "privacyText": {
+    "message": "Les modèles sont stockés uniquement dans ce navigateur, sur cet appareil. FormDitto n'a ni serveur, ni compte, ni outil d'analyse, et n'effectue aucune requête réseau. Il ne remplit jamais les mots de passe, les cartes bancaires ni les champs masqués, et n'envoie jamais de formulaire."
+  },
+  "versionLabel": {
+    "message": "Version $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Langue"
+  },
+  "langAuto": {
+    "message": "Comme le navigateur ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ s",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Afficher les valeurs"
+  },
+  "generalHeading": {
+    "message": "Général"
+  },
+  "themeLabel": {
+    "message": "Thème"
+  },
+  "syncLabel": {
+    "message": "Page et panneau pendant l'enregistrement"
+  },
+  "syncBoth": {
+    "message": "Dans les deux sens"
+  },
+  "syncPage": {
+    "message": "Page → panneau"
+  },
+  "syncHelp": {
+    "message": "Dans les deux sens : ce que vous saisissez dans le panneau va aussi dans le formulaire de la page. Page → panneau : le panneau reprend ce que vous tapez sur la page, et les modifications faites dans le panneau restent uniquement dans le modèle."
+  },
+  "recHelpPage": {
+    "message": "Cliquez sur les champs du formulaire à inclure dans le modèle. Ce que vous tapez sur la page arrive dans le panneau ; les modifications faites dans le panneau restent uniquement dans le modèle."
+  },
+  "themeAuto": {
+    "message": "Comme le système"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "themeToggle": {
+    "message": "Changer de thème"
+  },
+  "errNoAccess": {
+    "message": "FormDitto n'a pas accès à cette page. Cliquez sur l'icône FormDitto dans la barre d'outils du navigateur ou autorisez l'accès au site."
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto n'a pas encore accès à cet onglet. Cliquez sur l'icône FormDitto dans la barre d'outils du navigateur."
+  },
+  "errPageChanged": {
+    "message": "La page a changé. Rouvrez l'aperçu."
+  },
+  "errOtherSite": {
+    "message": "Ce modèle appartient à $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Rien à annuler : la page a changé."
+  },
+  "errAgent": {
+    "message": "Un problème est survenu sur la page : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Sélectionnez au moins un champ."
+  },
+  "errTooManyFields": {
+    "message": "Trop de champs (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Trop de variantes (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Trop de modèles (limite $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Impossible d'enregistrer : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "Le fichier dépasse 2 Mo."
+  },
+  "errNotJson": {
+    "message": "Ce n'est pas un fichier JSON."
+  },
+  "errSchema": {
+    "message": "Le fichier ne correspond pas au format FormDitto : $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

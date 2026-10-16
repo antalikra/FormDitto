@@ -1,0 +1,27 @@
+{
+  "name": "formditto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FormDitto: fill repetitive web forms from saved templates in one click. Local-only Chrome/Edge extension.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test \"test/unit/*.test.js\"",
+    "test:e2e": "playwright test",
+    "serve:test": "node test/server.mjs",
+    "build": "node scripts/build.mjs",
+    "store": "node scripts/store-assets.mjs",
+    "audit": "npm audit --audit-level=low",
+    "check": "npm run audit && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vue": "3.5.42"
+  }
+}

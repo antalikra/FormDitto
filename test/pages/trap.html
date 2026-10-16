@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Checkout (trap fields)</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="trapForm">
+  <h1>Contact form with hidden trap fields</h1>
+  <p class="lead">Only “Full name”, “Email”, the custom checkbox and “Comment” are visible to a person.</p>
+  <div class="grid">
+    <div class="f"><label for="fullname">Full name</label><input type="text" id="fullname" name="fullname"></div>
+    <div class="f"><label for="email">Email</label><input type="email" id="email" name="email"></div>
+    <div class="f wide"><label for="comment">Comment</label><textarea id="comment" name="comment"></textarea></div>
+    <div class="f"><label class="custom-check"><input type="checkbox" id="terms" name="terms"><span class="box"></span> I agree to be contacted</label></div>
+  </div>
+
+  <!-- Trap fields: invisible to a person, but present in the DOM. -->
+  <input type="hidden" name="h_token" value="xyz">
+  <div><label for="addr_display">Address</label><input class="trap-display" type="text" id="addr_display" name="addr_display"></div>
+  <input class="trap-visibility" type="text" id="addr_visibility" name="addr_visibility" aria-label="Address line">
+  <input class="trap-opacity" type="text" id="addr_opacity" name="addr_opacity" aria-label="Phone">
+  <input class="trap-tiny" type="text" id="addr_tiny" name="addr_tiny" aria-label="City">
+  <input class="trap-offscreen" type="text" id="addr_offscreen" name="addr_offscreen" aria-label="Street">
+  <div class="trap-clipbox"><input type="text" id="addr_clipped" name="addr_clipped" aria-label="Postcode"></div>
+  <input class="trap-cliprect" type="text" id="addr_cliprect" name="addr_cliprect" aria-label="Country">
+  <div aria-hidden="true"><input type="text" id="addr_aria" name="addr_aria" aria-label="Region"></div>
+  <div inert><input type="text" id="addr_inert" name="addr_inert" aria-label="Company"></div>
+  <details><summary>More</summary><input type="text" id="addr_details" name="addr_details" aria-label="Birthday"></details>
+  <input class="trap-scale" type="text" id="addr_scale" name="addr_scale" aria-label="Mobile">
+  <input class="trap-fixed-top" type="text" id="addr_fixed" name="addr_fixed" aria-label="Fax">
+  <div class="trap-faded"><input type="text" id="addr_faded" name="addr_faded" aria-label="Website"></div>
+
+  <!-- Sensitive fields: visible, but never recorded or filled. -->
+  <div class="grid">
+    <div class="f"><label for="pass">Password</label><input type="password" id="pass" name="pass"></div>
+    <div class="f"><label for="cardnum">Card</label><input type="text" id="cardnum" name="cardnum" autocomplete="cc-number"></div>
+    <div class="f"><label for="cvc">CVC</label><input type="text" id="cvc" name="cvc"></div>
+    <div class="f"><label for="otp">Code from SMS</label><input type="text" id="otp" name="otp" autocomplete="one-time-code"></div>
+  </div>
+  <div class="bar"><button type="submit" class="primary">Send</button></div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+</body>
+</html>

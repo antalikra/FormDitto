@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Form with iframes</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="outer">
+  <h1>Order with embedded sections</h1>
+  <div class="grid">
+    <div class="f wide"><label for="title">Order title</label><input type="text" id="title" name="title"></div>
+    <div class="f wide"><span class="lbl">Same-origin section</span><iframe id="inner" class="frame" src="frame-inner.html" title="Same-origin section"></iframe></div>
+    <div class="f wide"><span class="lbl">Third-party widget (other origin)</span><iframe id="foreign" class="frame" title="Other origin widget"></iframe></div>
+  </div>
+  <div class="bar"><button type="submit" class="primary">Send</button></div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+<script src="iframe.js"></script>
+</body>
+</html>

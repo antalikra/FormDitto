@@ -1,0 +1,29 @@
+FormDitto is een formulierinvuller voor iedereen die elke dag hetzelfde soort webformulier verstuurt: serviceaanvragen, bestellingen, tickets, registraties. Sla het formulier één keer op als sjabloon, bewaar een variant voor elk geval (‘Pomp type B’, ‘Pomp type C’…) en vul het hele formulier in één klik in.
+
+ZO WERKT HET
+1. Open uw formulier en klik op het FormDitto-pictogram. Naast de pagina opent het zijpaneel.
+2. Klik op ‘Nieuw sjabloon’, klik op de velden die u nodig hebt (of op ‘Alle zichtbare velden toevoegen’) en typ de waarden.
+3. Die waarden worden uw eerste variant. Voeg meer varianten toe, kopieer en bewerk ze in het paneel.
+4. De volgende keer: kies een variant, controleer het voorbeeld en klik op ‘Invullen’. Gewijzigde velden worden gemarkeerd en ‘Ongedaan maken’ zet de vorige waarden terug.
+
+WAT HET INVULT
+• Tekst-, e-mail-, telefoon- en getalvelden, tekstvakken
+• Keuzelijsten, selectievakjes, keuzerondjes, datums
+• React- en Vue-formulieren (gecontroleerde velden krijgen echte input- en change-gebeurtenissen)
+• Lijsten en velden die later laden: FormDitto wacht erop, met een tijdslimiet
+• Iframes van dezelfde site en webcomponenten (open shadow DOM)
+
+PRIVÉ EN ZORGVULDIG
+• Sjablonen blijven in uw browser op dit apparaat. Geen account, geen server, geen analyse, geen netwerkverzoeken.
+• Toegang wordt per site gevraagd en alleen als u die toestaat.
+• Elk sjabloon is gekoppeld aan de site waarop het is opgenomen. Op elke andere site, bijvoorbeeld een nagemaakte kopie van uw portaal, toont FormDitto een duidelijke waarschuwing voordat er iets wordt ingevuld.
+• Neemt nooit wachtwoorden, betaalkaartvelden of verborgen velden op en vult ze nooit in.
+• Verstuurt het formulier nooit. U controleert het en klikt zelf op ‘Verzenden’.
+
+IMPORTEREN EN EXPORTEREN
+Zet sjablonen over naar een andere computer of deel ze met collega's als JSON-bestand. Geïmporteerde bestanden worden streng gecontroleerd.
+
+GRATIS
+Sjablonen, varianten, voorbeeld en ongedaan maken zijn gratis. Geen abonnement.
+
+Beschikbaar in 14 talen. Werkt in Google Chrome en Microsoft Edge 116 of nieuwer.

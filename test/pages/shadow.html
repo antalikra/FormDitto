@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shadow DOM form</title>
+<link rel="stylesheet" href="form.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="wrap">
+<form class="card" id="shadowForm">
+  <h1>Web components</h1>
+  <div class="grid">
+    <div class="f"><label for="customer">Customer</label><input type="text" id="customer" name="customer"></div>
+    <div class="f wide"><x-address id="addr"></x-address></div>
+    <div class="f wide"><x-secret-box></x-secret-box></div>
+  </div>
+  <div class="bar"><button type="submit" class="primary">Send</button></div>
+  <p class="status" id="submits">Not submitted</p>
+</form>
+</div>
+<script src="shadow.js"></script>
+</body>
+</html>

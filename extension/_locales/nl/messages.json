@@ -1,0 +1,701 @@
+{
+  "extName": {
+    "message": "FormDitto: formulieren automatisch invullen met sjablonen"
+  },
+  "extDescription": {
+    "message": "Vul terugkerende webformulieren in één klik in met opgeslagen sjablonen. Alles lokaal: geen account, geen abonnement."
+  },
+  "actionTitle": {
+    "message": "FormDitto openen"
+  },
+  "settingsTitle": {
+    "message": "Instellingen"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "back": {
+    "message": "Terug"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "delete": {
+    "message": "Verwijderen"
+  },
+  "edit": {
+    "message": "Bewerken"
+  },
+  "duplicate": {
+    "message": "Dupliceren"
+  },
+  "remove": {
+    "message": "Weghalen"
+  },
+  "rename": {
+    "message": "Naam wijzigen"
+  },
+  "done": {
+    "message": "Klaar"
+  },
+  "checked": {
+    "message": "Aangevinkt"
+  },
+  "unchecked": {
+    "message": "Niet aangevinkt"
+  },
+  "notSet": {
+    "message": "— niet ingesteld —"
+  },
+  "nothingFound": {
+    "message": "Niets gevonden."
+  },
+  "unnamedField": {
+    "message": "Naamloos veld"
+  },
+  "siteUnknownTitle": {
+    "message": "Nog geen toegang tot dit tabblad"
+  },
+  "siteUnknownBody": {
+    "message": "Klik op het FormDitto-pictogram in de werkbalk van de browser om met dit tabblad te werken. Wilt u deze klik op uw portaal overslaan, kies dan daarna ‘Altijd toestaan op deze site’."
+  },
+  "siteUnsupported": {
+    "message": "FormDitto kan niet werken op deze pagina."
+  },
+  "accessGranted": {
+    "message": "Altijd toegestaan op deze site"
+  },
+  "accessTemporary": {
+    "message": "Toegestaan op deze pagina tot u deze verlaat"
+  },
+  "alwaysAllow": {
+    "message": "Altijd toestaan op deze site"
+  },
+  "accessNote": {
+    "message": "FormDitto vraagt alleen toegang tot deze ene site."
+  },
+  "newTemplate": {
+    "message": "Nieuw sjabloon"
+  },
+  "searchTemplates": {
+    "message": "Sjablonen en varianten zoeken"
+  },
+  "templatesHere": {
+    "message": "Sjablonen voor deze site"
+  },
+  "noTemplatesHere": {
+    "message": "Nog geen sjablonen voor deze site. Klik op ‘Nieuw sjabloon’ en kies de formuliervelden."
+  },
+  "otherSites": {
+    "message": "Andere sites ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "allTemplates": {
+    "message": "Alle sjablonen ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fieldsLabel": {
+    "message": "Velden: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantsLabel": {
+    "message": "Varianten: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importBtn": {
+    "message": "Importeren"
+  },
+  "exportAll": {
+    "message": "Alles exporteren"
+  },
+  "localNote": {
+    "message": "Sjablonen worden alleen in deze browser op dit apparaat opgeslagen."
+  },
+  "recTitle": {
+    "message": "Sjabloon opnemen"
+  },
+  "recHelp": {
+    "message": "Klik op de formuliervelden die u in het sjabloon wilt. Vul de waarden in op de pagina of direct hier: beide blijven gelijk en worden de eerste variant."
+  },
+  "recAddAll": {
+    "message": "Alle zichtbare velden toevoegen"
+  },
+  "recEmpty": {
+    "message": "Nog geen velden gekozen."
+  },
+  "recName": {
+    "message": "Naam van het sjabloon"
+  },
+  "recNameDefault": {
+    "message": "Formulier op $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFirstVariant": {
+    "message": "Naam van de eerste variant"
+  },
+  "firstVariantName": {
+    "message": "Variant 1"
+  },
+  "recSave": {
+    "message": "Sjabloon opslaan"
+  },
+  "recBanner": {
+    "message": "FormDitto · klik op velden om ze toe te voegen · gekozen: {n}"
+  },
+  "recHoverAdd": {
+    "message": "klik om toe te voegen"
+  },
+  "recHoverAdded": {
+    "message": "toegevoegd · u kunt een waarde invoeren"
+  },
+  "recHoverBlocked": {
+    "message": "Niet toegestaan"
+  },
+  "recBlocked": {
+    "message": "Niet toegevoegd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSetFailed": {
+    "message": "De pagina heeft de waarde voor ‘$P1$’ niet geaccepteerd. Het sjabloon houdt de waarde uit het paneel.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recFieldReplaced": {
+    "message": "De pagina heeft het veld ‘$P1$’ door een nieuw vervangen. Klik er op de pagina opnieuw op om het in het sjabloon te houden.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "recSubmitBlocked": {
+    "message": "Knoppen worden niet opgenomen. Het formulier is niet verzonden."
+  },
+  "recCancelledNav": {
+    "message": "Opname gestopt: de pagina is gewijzigd."
+  },
+  "savedTemplate": {
+    "message": "Sjabloon ‘$P1$’ opgeslagen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedTemplateAddValues": {
+    "message": "Sjabloon ‘$P1$’ opgeslagen. Voer nu de waarden van de eerste variant in.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reason_password": {
+    "message": "wachtwoordveld"
+  },
+  "reason_payment": {
+    "message": "betaalkaartveld"
+  },
+  "reason_otp": {
+    "message": "veld voor eenmalige code"
+  },
+  "reason_hidden_type": {
+    "message": "verborgen veld"
+  },
+  "reason_not_rendered": {
+    "message": "verborgen veld"
+  },
+  "reason_too_small": {
+    "message": "onzichtbaar veld (te klein)"
+  },
+  "reason_invisible": {
+    "message": "onzichtbaar veld"
+  },
+  "reason_transparent": {
+    "message": "transparant veld"
+  },
+  "reason_clipped": {
+    "message": "afgesneden, verborgen veld"
+  },
+  "reason_offscreen": {
+    "message": "veld buiten beeld geplaatst"
+  },
+  "reason_aria_hidden": {
+    "message": "veld verborgen voor gebruikers"
+  },
+  "reason_inert": {
+    "message": "inactief deel van de pagina"
+  },
+  "reason_detached": {
+    "message": "veld van de pagina verwijderd"
+  },
+  "reason_disabled": {
+    "message": "uitgeschakeld veld"
+  },
+  "reason_readonly": {
+    "message": "alleen-lezenveld"
+  },
+  "reason_unsupported": {
+    "message": "niet-ondersteund veldtype"
+  },
+  "reason_submit": {
+    "message": "knop"
+  },
+  "kind_text": {
+    "message": "tekst"
+  },
+  "kind_textarea": {
+    "message": "lange tekst"
+  },
+  "kind_select": {
+    "message": "lijst"
+  },
+  "kind_checkbox": {
+    "message": "selectievakje"
+  },
+  "kind_radio": {
+    "message": "keuze"
+  },
+  "kind_date": {
+    "message": "datum"
+  },
+  "recordedOn": {
+    "message": "Opgenomen op $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchVariants": {
+    "message": "Varianten zoeken"
+  },
+  "noVariants": {
+    "message": "Nog geen varianten. Vul het formulier met de hand in en klik op ‘Nieuwe variant van pagina’."
+  },
+  "fillBtn": {
+    "message": "Invullen"
+  },
+  "newVariantFromPage": {
+    "message": "Nieuwe variant van pagina"
+  },
+  "newVariantEmpty": {
+    "message": "Lege variant"
+  },
+  "fieldsHeading": {
+    "message": "Velden ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removeField": {
+    "message": "Veld uit sjabloon weghalen"
+  },
+  "confirmDelete": {
+    "message": "Deze variant verwijderen?"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Het sjabloon en alle varianten verwijderen?"
+  },
+  "deleteTemplate": {
+    "message": "Sjabloon verwijderen"
+  },
+  "exportOne": {
+    "message": "Exporteren"
+  },
+  "copySuffix": {
+    "message": "$P1$ (kopie)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "duplicated": {
+    "message": "Kopie gemaakt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "variantN": {
+    "message": "Variant $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "editTitle": {
+    "message": "Variant bewerken"
+  },
+  "newVariantTitle": {
+    "message": "Nieuwe variant"
+  },
+  "variantName": {
+    "message": "Naam van de variant"
+  },
+  "leaveEmptyHint": {
+    "message": "Lege velden worden bij het invullen niet aangeraakt."
+  },
+  "savedVariant": {
+    "message": "Variant ‘$P1$’ opgeslagen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewTitle": {
+    "message": "Voorbeeld"
+  },
+  "previewUnchanged": {
+    "message": "Blijven ongewijzigd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillN": {
+    "message": "Velden invullen ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "fillAnyway": {
+    "message": "Toch invullen"
+  },
+  "noSubmitNote": {
+    "message": "FormDitto vult alleen velden in. U controleert en verzendt het formulier zelf."
+  },
+  "mismatchTitle": {
+    "message": "Dit is niet de site waarop het sjabloon is opgenomen"
+  },
+  "mismatchTemplateSite": {
+    "message": "Site van het sjabloon"
+  },
+  "mismatchThisPage": {
+    "message": "Deze pagina"
+  },
+  "mismatchBody": {
+    "message": "Als dit een kopie van uw portaal is, gaan de ingevulde gegevens naar iemand anders."
+  },
+  "lookalikePunycode": {
+    "message": "Het adres bevat internationale tekens die op andere tekens lijken."
+  },
+  "lookalikeSimilar": {
+    "message": "Het adres lijkt een imitatie van het origineel."
+  },
+  "downgradeWarn": {
+    "message": "Deze pagina is niet beveiligd (http in plaats van https)."
+  },
+  "mismatchAck": {
+    "message": "Ik begrijp het risico, deze pagina toch invullen"
+  },
+  "st_ready": {
+    "message": "wordt ingevuld"
+  },
+  "st_unchanged": {
+    "message": "al ingesteld"
+  },
+  "st_skipped": {
+    "message": "niet in variant"
+  },
+  "st_waiting": {
+    "message": "nog niet op pagina, wacht"
+  },
+  "st_option_wait": {
+    "message": "optie nog niet geladen, wacht"
+  },
+  "st_blocked": {
+    "message": "geblokkeerd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "st_ambiguous": {
+    "message": "niet eenduidig, overgeslagen"
+  },
+  "st_filled": {
+    "message": "ingevuld"
+  },
+  "st_not_found": {
+    "message": "niet gevonden"
+  },
+  "st_no_option": {
+    "message": "optie niet gevonden"
+  },
+  "st_failed": {
+    "message": "pagina weigerde de waarde"
+  },
+  "st_invalid": {
+    "message": "ongeldige waarde"
+  },
+  "fillingProgress": {
+    "message": "Invullen… zo nodig wachten op trage velden."
+  },
+  "resultTitle": {
+    "message": "Ingevuld"
+  },
+  "undoneTitle": {
+    "message": "Ongedaan gemaakt"
+  },
+  "resultFilled": {
+    "message": "ingevuld"
+  },
+  "resultUnchanged": {
+    "message": "al juist"
+  },
+  "resultProblems": {
+    "message": "niet ingevuld"
+  },
+  "reviewNote": {
+    "message": "Controleer het formulier en verzend het zelf."
+  },
+  "undo": {
+    "message": "Ongedaan maken"
+  },
+  "undone": {
+    "message": "Vorige waarden hersteld: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importTitle": {
+    "message": "Sjablonen importeren"
+  },
+  "importSummary": {
+    "message": "Sjablonen in het bestand: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importNote": {
+    "message": "Geïmporteerde sjablonen vullen formulieren alleen in op de hierboven getoonde sites. Sjablonen met dezelfde id worden als kopie toegevoegd."
+  },
+  "importConfirm": {
+    "message": "Importeren"
+  },
+  "importDone": {
+    "message": "Geïmporteerde sjablonen: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "importedSuffix": {
+    "message": "$P1$ (geïmporteerd)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "settingsSaved": {
+    "message": "Instellingen opgeslagen."
+  },
+  "waitLabel": {
+    "message": "Wachten op trage velden en lijsten, seconden"
+  },
+  "waitHelp": {
+    "message": "Hoe lang het invullen wacht op een veld of lijstoptie die later verschijnt, bijvoorbeeld een lijst met modellen die laadt nadat u het type apparatuur kiest. Velden die nooit verschijnen, worden gemeld als niet gevonden."
+  },
+  "sitesHeading": {
+    "message": "Sites met permanente toegang"
+  },
+  "noSites": {
+    "message": "Geen."
+  },
+  "removeAccess": {
+    "message": "Toegang intrekken"
+  },
+  "privacyHeading": {
+    "message": "Privacy"
+  },
+  "privacyText": {
+    "message": "Sjablonen worden alleen in deze browser op dit apparaat opgeslagen. FormDitto heeft geen server, geen account en geen analyse en doet geen netwerkverzoeken. Het vult nooit wachtwoorden, betaalkaarten of verborgen velden in en verzendt nooit formulieren."
+  },
+  "versionLabel": {
+    "message": "Versie $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "langLabel": {
+    "message": "Taal"
+  },
+  "langAuto": {
+    "message": "Zoals de browser ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "secondsShort": {
+    "message": "$P1$ s",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "showValues": {
+    "message": "Waarden tonen"
+  },
+  "generalHeading": {
+    "message": "Algemeen"
+  },
+  "themeLabel": {
+    "message": "Thema"
+  },
+  "syncLabel": {
+    "message": "Pagina en paneel tijdens opnemen"
+  },
+  "syncBoth": {
+    "message": "Beide kanten op"
+  },
+  "syncPage": {
+    "message": "Pagina → paneel"
+  },
+  "syncHelp": {
+    "message": "Beide kanten op: wat u in het paneel invult, komt ook in het formulier op de pagina. Pagina → paneel: het paneel neemt over wat u op de pagina typt, en wijzigingen in het paneel blijven alleen in het sjabloon."
+  },
+  "recHelpPage": {
+    "message": "Klik op de formuliervelden die u in het sjabloon wilt. Wat u op de pagina typt, komt in het paneel; wijzigingen in het paneel blijven alleen in het sjabloon."
+  },
+  "themeAuto": {
+    "message": "Zoals het systeem"
+  },
+  "themeLight": {
+    "message": "Licht"
+  },
+  "themeDark": {
+    "message": "Donker"
+  },
+  "themeToggle": {
+    "message": "Thema wijzigen"
+  },
+  "errNoAccess": {
+    "message": "FormDitto heeft geen toegang tot deze pagina. Klik op het FormDitto-pictogram in de werkbalk van de browser of sta toegang tot de site toe."
+  },
+  "errNoTabAccess": {
+    "message": "FormDitto heeft nog geen toegang tot dit tabblad. Klik op het FormDitto-pictogram in de werkbalk van de browser."
+  },
+  "errPageChanged": {
+    "message": "De pagina is gewijzigd. Open het voorbeeld opnieuw."
+  },
+  "errOtherSite": {
+    "message": "Dit sjabloon hoort bij $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNothingToUndo": {
+    "message": "Niets ongedaan te maken: de pagina is gewijzigd."
+  },
+  "errAgent": {
+    "message": "Er ging iets mis op de pagina: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errNoFields": {
+    "message": "Kies minstens één veld."
+  },
+  "errTooManyFields": {
+    "message": "Te veel velden (limiet $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooManyVariants": {
+    "message": "Te veel varianten (limiet $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errLimit": {
+    "message": "Te veel sjablonen (limiet $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errSave": {
+    "message": "Opslaan mislukt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errTooLarge": {
+    "message": "Het bestand is groter dan 2 MB."
+  },
+  "errNotJson": {
+    "message": "Dit is geen JSON-bestand."
+  },
+  "errSchema": {
+    "message": "Het bestand komt niet overeen met de FormDitto-indeling: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}
